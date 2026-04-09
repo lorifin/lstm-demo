@@ -76,8 +76,9 @@ st.markdown("""
     }
     [data-testid="metric-container"] label { color: #8b949e; font-size: 0.85rem; }
     [data-testid="metric-container"] [data-testid="stMetricValue"] {
-        color: #58a6ff; font-size: 2rem; font-weight: 700;
+        color: #ffffff !important; font-size: 2rem; font-weight: 700;
     }
+    [data-testid="metric-container"] div { color: #ffffff !important; }
 
     /* Tabs */
     .stTabs [data-baseweb="tab-list"] { gap: 8px; }
