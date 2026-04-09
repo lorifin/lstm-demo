@@ -79,6 +79,13 @@ st.markdown("""
         color: #ffffff !important; font-size: 2rem; font-weight: 700;
     }
     [data-testid="metric-container"] div { color: #ffffff !important; }
+    [data-testid="metric-container"] span { color: #ffffff !important; }
+
+    /* Force all numbers and text to white */
+    .stMetric { color: #ffffff !important; }
+    .stMetric * { color: #ffffff !important; }
+    .element-container { color: #fafafa !important; }
+    .element-container * { color: #fafafa !important; }
 
     /* Tabs */
     .stTabs [data-baseweb="tab-list"] { gap: 8px; }
