@@ -8,6 +8,7 @@ Usage:
 import argparse
 import os
 import sys
+from datetime import datetime
 
 import numpy as np
 import pandas as pd
@@ -25,10 +26,68 @@ MODEL_DIR = os.path.join(ROOT, "model")
 PLOTS_DIR = os.path.join(ROOT, "plots")
 os.makedirs(PLOTS_DIR, exist_ok=True)
 os.makedirs(MODEL_DIR, exist_ok=True)
+os.makedirs(DATA_RAW, exist_ok=True)
 
-sys.path.insert(0, ROOT)
-from model.lstm_model import LSTMForecaster
-from data.download_data import download_stock
+
+# ─── LSTMForecaster (intégré directement) ────────────────────────────────────
+
+class LSTMForecaster(nn.Module):
+    def __init__(self, input_size: int = 1, hidden_size: int = 64,
+                 num_layers: int = 2, dropout: float = 0.2, output_size: int = 1):
+        super().__init__()
+        self.hidden_size = hidden_size
+        self.num_layers = num_layers
+
+        self.lstm = nn.LSTM(
+            input_size=input_size,
+            hidden_size=hidden_size,
+            num_layers=num_layers,
+            dropout=dropout if num_layers > 1 else 0.0,
+            batch_first=True,
+        )
+        self.dropout = nn.Dropout(dropout)
+        self.fc = nn.Linear(hidden_size, output_size)
+
+    def forward(self, x: torch.Tensor) -> torch.Tensor:
+        h0 = torch.zeros(self.num_layers, x.size(0), self.hidden_size, device=x.device)
+        c0 = torch.zeros(self.num_layers, x.size(0), self.hidden_size, device=x.device)
+        out, _ = self.lstm(x, (h0, c0))
+        out = self.dropout(out[:, -1, :])
+        return self.fc(out)
+
+
+# ─── download_stock (intégré directement) ───────────────────────────────────
+
+def download_stock(ticker: str = "MC.PA", start: str = "2018-01-01", end: str = None) -> pd.DataFrame:
+    """Télécharge données boursières via yfinance ou génère synthétiques."""
+    if end is None:
+        end = datetime.today().strftime("%Y-%m-%d")
+
+    try:
+        import yfinance as yf
+        df = yf.download(ticker, start=start, end=end, progress=False)
+        if df.empty:
+            raise ValueError(f"Aucune donnée retournée pour {ticker}")
+        df = df[["Close"]].copy()
+        df.columns = ["close"]
+        df.index.name = "date"
+        print(f"[yfinance] {len(df)} jours téléchargés pour {ticker}")
+    except Exception as e:
+        print(f"[yfinance] Échec ({e}) — génération de données synthétiques")
+        dates = pd.date_range(start=start, end=end, freq="B")
+        n = len(dates)
+        np.random.seed(42)
+        returns = np.random.normal(0.0003, 0.012, n)
+        seasonal = 0.05 * np.sin(2 * np.pi * np.arange(n) / 252)
+        prices = 100 * np.exp(np.cumsum(returns) + seasonal)
+        df = pd.DataFrame({"close": prices}, index=dates)
+        df.index.name = "date"
+        print(f"[synthetic] {n} jours générés pour {ticker}")
+
+    path = os.path.join(DATA_RAW, f"{ticker.replace('.', '_')}.csv")
+    df.to_csv(path)
+    print(f"[data] Sauvegardé → {path}")
+    return df
 
 
 # ─── Dataset ────────────────────────────────────────────────────────────────
