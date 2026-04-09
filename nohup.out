@@ -1,0 +1,700 @@
+
+  You can now view your Streamlit app in your browser.
+
+  URL: http://0.0.0.0:8502
+
+Entraînement:   0%|          | 0/50 [00:00<?, ?epoch/s]Entraînement:   2%|▏         | 1/50 [00:00<00:43,  1.13epoch/s]Entraînement:   4%|▍         | 2/50 [00:01<00:35,  1.35epoch/s]Entraînement:   6%|▌         | 3/50 [00:02<00:31,  1.51epoch/s]Entraînement:   8%|▊         | 4/50 [00:02<00:29,  1.58epoch/s]Entraînement:  10%|█         | 5/50 [00:03<00:27,  1.65epoch/s]Entraînement:  12%|█▏        | 6/50 [00:03<00:27,  1.60epoch/s]Entraînement:  14%|█▍        | 7/50 [00:04<00:27,  1.55epoch/s]Entraînement:  16%|█▌        | 8/50 [00:05<00:27,  1.52epoch/s]Entraînement:  18%|█▊        | 9/50 [00:06<00:28,  1.45epoch/s]                                                               Entraînement:  18%|█▊        | 9/50 [00:06<00:28,  1.45epoch/s]Entraînement:  20%|██        | 10/50 [00:06<00:29,  1.35epoch/s]Entraînement:  22%|██▏       | 11/50 [00:07<00:28,  1.36epoch/s]Entraînement:  24%|██▍       | 12/50 [00:08<00:27,  1.40epoch/s]Entraînement:  26%|██▌       | 13/50 [00:08<00:25,  1.47epoch/s]Entraînement:  28%|██▊       | 14/50 [00:09<00:23,  1.50epoch/s]Entraînement:  30%|███       | 15/50 [00:10<00:24,  1.42epoch/s]Entraînement:  32%|███▏      | 16/50 [00:11<00:24,  1.40epoch/s]Entraînement:  34%|███▍      | 17/50 [00:11<00:23,  1.41epoch/s]Entraînement:  36%|███▌      | 18/50 [00:12<00:21,  1.46epoch/s]Entraînement:  38%|███▊      | 19/50 [00:13<00:20,  1.49epoch/s]                                                                Entraînement:  38%|███▊      | 19/50 [00:13<00:20,  1.49epoch/s]Entraînement:  40%|████      | 20/50 [00:13<00:20,  1.49epoch/s]Entraînement:  42%|████▏     | 21/50 [00:14<00:18,  1.53epoch/s]Entraînement:  44%|████▍     | 22/50 [00:14<00:17,  1.58epoch/s]Entraînement:  46%|████▌     | 23/50 [00:15<00:16,  1.63epoch/s]Entraînement:  48%|████▊     | 24/50 [00:16<00:15,  1.66epoch/s]Entraînement:  50%|█████     | 25/50 [00:16<00:14,  1.70epoch/s]Entraînement:  52%|█████▏    | 26/50 [00:17<00:13,  1.72epoch/s]Entraînement:  54%|█████▍    | 27/50 [00:17<00:13,  1.67epoch/s]Entraînement:  56%|█████▌    | 28/50 [00:18<00:13,  1.67epoch/s]Entraînement:  58%|█████▊    | 29/50 [00:18<00:12,  1.70epoch/s]                                                                Entraînement:  58%|█████▊    | 29/50 [00:19<00:12,  1.70epoch/s]Entraînement:  60%|██████    | 30/50 [00:19<00:11,  1.71epoch/s]Entraînement:  62%|██████▏   | 31/50 [00:20<00:11,  1.73epoch/s]Entraînement:  64%|██████▍   | 32/50 [00:20<00:10,  1.72epoch/s]Entraînement:  66%|██████▌   | 33/50 [00:21<00:11,  1.50epoch/s]Entraînement:  68%|██████▊   | 34/50 [00:22<00:10,  1.53epoch/s]Entraînement:  70%|███████   | 35/50 [00:22<00:09,  1.55epoch/s]Entraînement:  72%|███████▏  | 36/50 [00:23<00:09,  1.53epoch/s]Entraînement:  74%|███████▍  | 37/50 [00:24<00:08,  1.52epoch/s]Entraînement:  76%|███████▌  | 38/50 [00:24<00:07,  1.54epoch/s]Entraînement:  78%|███████▊  | 39/50 [00:25<00:06,  1.57epoch/s]                                                                Entraînement:  78%|███████▊  | 39/50 [00:26<00:06,  1.57epoch/s]Entraînement:  80%|████████  | 40/50 [00:26<00:06,  1.56epoch/s]Entraînement:  82%|████████▏ | 41/50 [00:26<00:05,  1.54epoch/s]Entraînement:  84%|████████▍ | 42/50 [00:27<00:05,  1.58epoch/s]Entraînement:  86%|████████▌ | 43/50 [00:27<00:04,  1.57epoch/s]Entraînement:  88%|████████▊ | 44/50 [00:28<00:03,  1.60epoch/s]Entraînement:  90%|█████████ | 45/50 [00:29<00:03,  1.62epoch/s]Entraînement:  92%|█████████▏| 46/50 [00:29<00:02,  1.63epoch/s]Entraînement:  94%|█████████▍| 47/50 [00:30<00:01,  1.66epoch/s]Entraînement:  96%|█████████▌| 48/50 [00:30<00:01,  1.68epoch/s]Entraînement:  98%|█████████▊| 49/50 [00:31<00:00,  1.61epoch/s]                                                                Entraînement:  98%|█████████▊| 49/50 [00:32<00:00,  1.61epoch/s]Entraînement: 100%|██████████| 50/50 [00:32<00:00,  1.65epoch/s]Entraînement: 100%|██████████| 50/50 [00:32<00:00,  1.55epoch/s]
+[yfinance] 2111 jours téléchargés pour MC.PA
+[data] Sauvegardé → /Users/stephanekrebs/bureau/OPENCLAW/lstm-demo/data/raw/MC_PA.csv
+[31m──[0m[31m────────────────────────[0m[31m [0m[1;31mTraceback [0m[1;2;31m(most recent call last)[0m[31m [0m[31m─────────────────────────[0m[31m──[0m
+[31m [0m [2;33m/Users/stephanekrebs/.pyenv/versions/3.11.5/lib/python3.11/site-packages/streamlit/r[0m [31m [0m
+[31m [0m [2;33muntime/scriptrunner/[0m[1;33mexec_code.py[0m:[94m121[0m in [92mexec_func_with_error_handling[0m                [31m [0m
+[31m [0m                                                                                      [31m [0m
+[31m [0m [2;33m/Users/stephanekrebs/.pyenv/versions/3.11.5/lib/python3.11/site-packages/streamlit/r[0m [31m [0m
+[31m [0m [2;33muntime/scriptrunner/[0m[1;33mscript_runner.py[0m:[94m645[0m in [92mcode_to_exec[0m                             [31m [0m
+[31m [0m                                                                                      [31m [0m
+[31m [0m [2;33m/Users/stephanekrebs/bureau/OPENCLAW/lstm-demo/dashboard/[0m[1;33mapp.py[0m:[94m274[0m in [92m<module>[0m      [31m [0m
+[31m [0m                                                                                      [31m [0m
+[31m [0m   [2m271 [0m[2m│   [0mckpt = load_model_checkpoint()                                             [31m [0m
+[31m [0m   [2m272 [0m[2m│   [0m[94mif[0m ckpt [95mand[0m [33m"[0m[33mtrain_losses[0m[33m"[0m [95min[0m ckpt:                                        [31m [0m
+[31m [0m   [2m273 [0m[2m│   │   [0mst.markdown([33mf[0m[33m"[0m[33m_Modèle chargé — entraîné sur **[0m[33m{[0mckpt.get([33m'[0m[33mticker[0m[33m'[0m,[90m [0m[33m'[0m[33m?[0m[33m'[0m) [31m [0m
+[31m [0m [31m❱ [0m274 [2m│   │   [0m[1;4m_plot_loss_curve(ckpt)[0m                                                 [31m [0m
+[31m [0m   [2m275 [0m[2m│   [0m[94melif[0m ckpt [95mis[0m [94mNone[0m:                                                         [31m [0m
+[31m [0m   [2m276 [0m[2m│   │   [0mst.info([33m"[0m[33mAucun modèle entraîné détecté. Cliquez sur **Lancer l[0m[33m'[0m[33mentraîn[0m [31m [0m
+[31m [0m   [2m277 [0m                                                                               [31m [0m
+[31m [0m                                                                                      [31m [0m
+[31m [0m [2;33m/Users/stephanekrebs/bureau/OPENCLAW/lstm-demo/dashboard/[0m[1;33mapp.py[0m:[94m247[0m in               [31m [0m
+[31m [0m [92m_plot_loss_curve[0m                                                                     [31m [0m
+[31m [0m                                                                                      [31m [0m
+[31m [0m   [2m244 [0m[2m│   │   │   │   [0mhovermode=[33m"[0m[33mx unified[0m[33m"[0m,                                         [31m [0m
+[31m [0m   [2m245 [0m[2m│   │   │   [0m)                                                                  [31m [0m
+[31m [0m   [2m246 [0m[2m│   │   [0m)                                                                      [31m [0m
+[31m [0m [31m❱ [0m247 [2m│   │   [0m[1;4mst.plotly_chart(fig, use_container_width=[0m[1;4;94mTrue[0m[1;4m)[0m                         [31m [0m
+[31m [0m   [2m248 [0m[2m│   [0m                                                                           [31m [0m
+[31m [0m   [2m249 [0m[2m│   [0m[94mif[0m st.button([33m"[0m[33m🚀 Lancer l[0m[33m'[0m[33mentraînement[0m[33m"[0m):                                  [31m [0m
+[31m [0m   [2m250 [0m[2m│   │   [0mlog_placeholder = st.empty()                                           [31m [0m
+[31m [0m                                                                                      [31m [0m
+[31m [0m [2;33m/Users/stephanekrebs/.pyenv/versions/3.11.5/lib/python3.11/site-packages/streamlit/r[0m [31m [0m
+[31m [0m [2;33muntime/[0m[1;33mmetrics_util.py[0m:[94m444[0m in [92mwrapped_func[0m                                           [31m [0m
+[31m [0m                                                                                      [31m [0m
+[31m [0m [2;33m/Users/stephanekrebs/.pyenv/versions/3.11.5/lib/python3.11/site-packages/streamlit/e[0m [31m [0m
+[31m [0m [2;33mlements/[0m[1;33mplotly_chart.py[0m:[94m509[0m in [92mplotly_chart[0m                                          [31m [0m
+[31m [0m                                                                                      [31m [0m
+[31m [0m [2;33m/Users/stephanekrebs/.pyenv/versions/3.11.5/lib/python3.11/site-packages/streamlit/e[0m [31m [0m
+[31m [0m [2;33mlements/lib/[0m[1;33mutils.py[0m:[94m239[0m in [92mcompute_and_register_element_id[0m                          [31m [0m
+[31m [0m                                                                                      [31m [0m
+[31m [0m [2;33m/Users/stephanekrebs/.pyenv/versions/3.11.5/lib/python3.11/site-packages/streamlit/e[0m [31m [0m
+[31m [0m [2;33mlements/lib/[0m[1;33mutils.py[0m:[94m145[0m in [92m_register_element_id[0m                                     [31m [0m
+[31m────────────────────────────────────────────────────────────────────────────────────────[0m
+[1;91mStreamlitDuplicateElementId: [0mThere are multiple `plotly_chart` elements with the same 
+auto-generated ID. When this element is created, it is assigned an internal ID based on 
+the element type and provided parameters. Multiple elements with the same type and 
+parameters will cause this error.
+
+To fix this error, please pass a unique `key` argument to the `plotly_chart` element.
+2026-03-31 20:48:29.567 Serialization of dataframe to Arrow table was unsuccessful. Applying automatic fixes for column types to make the dataframe Arrow-compatible.
+Traceback (most recent call last):
+  File "/Users/stephanekrebs/.pyenv/versions/3.11.5/lib/python3.11/site-packages/streamlit/dataframe_util.py", line 822, in convert_pandas_df_to_arrow_bytes
+    table = pa.Table.from_pandas(df)
+            ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "pyarrow/table.pxi", line 4793, in pyarrow.lib.Table.from_pandas
+  File "/Users/stephanekrebs/.pyenv/versions/3.11.5/lib/python3.11/site-packages/pyarrow/pandas_compat.py", line 639, in dataframe_to_arrays
+    arrays = [convert_column(c, f)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/stephanekrebs/.pyenv/versions/3.11.5/lib/python3.11/site-packages/pyarrow/pandas_compat.py", line 639, in <listcomp>
+    arrays = [convert_column(c, f)
+              ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/stephanekrebs/.pyenv/versions/3.11.5/lib/python3.11/site-packages/pyarrow/pandas_compat.py", line 626, in convert_column
+    raise e
+  File "/Users/stephanekrebs/.pyenv/versions/3.11.5/lib/python3.11/site-packages/pyarrow/pandas_compat.py", line 620, in convert_column
+    result = pa.array(col, type=type_, from_pandas=True, safe=safe)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "pyarrow/array.pxi", line 365, in pyarrow.lib.array
+  File "pyarrow/array.pxi", line 90, in pyarrow.lib._ndarray_to_array
+  File "pyarrow/error.pxi", line 92, in pyarrow.lib.check_status
+pyarrow.lib.ArrowTypeError: ("Expected bytes, got a 'int' object", 'Conversion failed for column Valeur with type object')
+2026-03-31 20:48:33.447 Serialization of dataframe to Arrow table was unsuccessful. Applying automatic fixes for column types to make the dataframe Arrow-compatible.
+Traceback (most recent call last):
+  File "/Users/stephanekrebs/.pyenv/versions/3.11.5/lib/python3.11/site-packages/streamlit/dataframe_util.py", line 822, in convert_pandas_df_to_arrow_bytes
+    table = pa.Table.from_pandas(df)
+            ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "pyarrow/table.pxi", line 4793, in pyarrow.lib.Table.from_pandas
+  File "/Users/stephanekrebs/.pyenv/versions/3.11.5/lib/python3.11/site-packages/pyarrow/pandas_compat.py", line 639, in dataframe_to_arrays
+    arrays = [convert_column(c, f)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/stephanekrebs/.pyenv/versions/3.11.5/lib/python3.11/site-packages/pyarrow/pandas_compat.py", line 639, in <listcomp>
+    arrays = [convert_column(c, f)
+              ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/stephanekrebs/.pyenv/versions/3.11.5/lib/python3.11/site-packages/pyarrow/pandas_compat.py", line 626, in convert_column
+    raise e
+  File "/Users/stephanekrebs/.pyenv/versions/3.11.5/lib/python3.11/site-packages/pyarrow/pandas_compat.py", line 620, in convert_column
+    result = pa.array(col, type=type_, from_pandas=True, safe=safe)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "pyarrow/array.pxi", line 365, in pyarrow.lib.array
+  File "pyarrow/array.pxi", line 90, in pyarrow.lib._ndarray_to_array
+  File "pyarrow/error.pxi", line 92, in pyarrow.lib.check_status
+pyarrow.lib.ArrowTypeError: ("Expected bytes, got a 'int' object", 'Conversion failed for column Valeur with type object')
+2026-03-31 22:27:30.943 Serialization of dataframe to Arrow table was unsuccessful. Applying automatic fixes for column types to make the dataframe Arrow-compatible.
+Traceback (most recent call last):
+  File "/Users/stephanekrebs/.pyenv/versions/3.11.5/lib/python3.11/site-packages/streamlit/dataframe_util.py", line 822, in convert_pandas_df_to_arrow_bytes
+    table = pa.Table.from_pandas(df)
+            ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "pyarrow/table.pxi", line 4793, in pyarrow.lib.Table.from_pandas
+  File "/Users/stephanekrebs/.pyenv/versions/3.11.5/lib/python3.11/site-packages/pyarrow/pandas_compat.py", line 639, in dataframe_to_arrays
+    arrays = [convert_column(c, f)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/stephanekrebs/.pyenv/versions/3.11.5/lib/python3.11/site-packages/pyarrow/pandas_compat.py", line 639, in <listcomp>
+    arrays = [convert_column(c, f)
+              ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/stephanekrebs/.pyenv/versions/3.11.5/lib/python3.11/site-packages/pyarrow/pandas_compat.py", line 626, in convert_column
+    raise e
+  File "/Users/stephanekrebs/.pyenv/versions/3.11.5/lib/python3.11/site-packages/pyarrow/pandas_compat.py", line 620, in convert_column
+    result = pa.array(col, type=type_, from_pandas=True, safe=safe)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "pyarrow/array.pxi", line 365, in pyarrow.lib.array
+  File "pyarrow/array.pxi", line 90, in pyarrow.lib._ndarray_to_array
+  File "pyarrow/error.pxi", line 92, in pyarrow.lib.check_status
+pyarrow.lib.ArrowTypeError: ("Expected bytes, got a 'int' object", 'Conversion failed for column Valeur with type object')
+2026-03-31 22:52:31.971 Serialization of dataframe to Arrow table was unsuccessful. Applying automatic fixes for column types to make the dataframe Arrow-compatible.
+Traceback (most recent call last):
+  File "/Users/stephanekrebs/.pyenv/versions/3.11.5/lib/python3.11/site-packages/streamlit/dataframe_util.py", line 822, in convert_pandas_df_to_arrow_bytes
+    table = pa.Table.from_pandas(df)
+            ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "pyarrow/table.pxi", line 4793, in pyarrow.lib.Table.from_pandas
+  File "/Users/stephanekrebs/.pyenv/versions/3.11.5/lib/python3.11/site-packages/pyarrow/pandas_compat.py", line 639, in dataframe_to_arrays
+    arrays = [convert_column(c, f)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/stephanekrebs/.pyenv/versions/3.11.5/lib/python3.11/site-packages/pyarrow/pandas_compat.py", line 639, in <listcomp>
+    arrays = [convert_column(c, f)
+              ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/stephanekrebs/.pyenv/versions/3.11.5/lib/python3.11/site-packages/pyarrow/pandas_compat.py", line 626, in convert_column
+    raise e
+  File "/Users/stephanekrebs/.pyenv/versions/3.11.5/lib/python3.11/site-packages/pyarrow/pandas_compat.py", line 620, in convert_column
+    result = pa.array(col, type=type_, from_pandas=True, safe=safe)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "pyarrow/array.pxi", line 365, in pyarrow.lib.array
+  File "pyarrow/array.pxi", line 90, in pyarrow.lib._ndarray_to_array
+  File "pyarrow/error.pxi", line 92, in pyarrow.lib.check_status
+pyarrow.lib.ArrowTypeError: ("Expected bytes, got a 'int' object", 'Conversion failed for column Valeur with type object')
+2026-03-31 23:02:43.104 Serialization of dataframe to Arrow table was unsuccessful. Applying automatic fixes for column types to make the dataframe Arrow-compatible.
+Traceback (most recent call last):
+  File "/Users/stephanekrebs/.pyenv/versions/3.11.5/lib/python3.11/site-packages/streamlit/dataframe_util.py", line 822, in convert_pandas_df_to_arrow_bytes
+    table = pa.Table.from_pandas(df)
+            ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "pyarrow/table.pxi", line 4793, in pyarrow.lib.Table.from_pandas
+  File "/Users/stephanekrebs/.pyenv/versions/3.11.5/lib/python3.11/site-packages/pyarrow/pandas_compat.py", line 639, in dataframe_to_arrays
+    arrays = [convert_column(c, f)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/stephanekrebs/.pyenv/versions/3.11.5/lib/python3.11/site-packages/pyarrow/pandas_compat.py", line 639, in <listcomp>
+    arrays = [convert_column(c, f)
+              ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/stephanekrebs/.pyenv/versions/3.11.5/lib/python3.11/site-packages/pyarrow/pandas_compat.py", line 626, in convert_column
+    raise e
+  File "/Users/stephanekrebs/.pyenv/versions/3.11.5/lib/python3.11/site-packages/pyarrow/pandas_compat.py", line 620, in convert_column
+    result = pa.array(col, type=type_, from_pandas=True, safe=safe)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "pyarrow/array.pxi", line 365, in pyarrow.lib.array
+  File "pyarrow/array.pxi", line 90, in pyarrow.lib._ndarray_to_array
+  File "pyarrow/error.pxi", line 92, in pyarrow.lib.check_status
+pyarrow.lib.ArrowTypeError: ("Expected bytes, got a 'int' object", 'Conversion failed for column Valeur with type object')
+2026-04-01 12:06:30.972 Serialization of dataframe to Arrow table was unsuccessful. Applying automatic fixes for column types to make the dataframe Arrow-compatible.
+Traceback (most recent call last):
+  File "/Users/stephanekrebs/.pyenv/versions/3.11.5/lib/python3.11/site-packages/streamlit/dataframe_util.py", line 822, in convert_pandas_df_to_arrow_bytes
+    table = pa.Table.from_pandas(df)
+            ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "pyarrow/table.pxi", line 4793, in pyarrow.lib.Table.from_pandas
+  File "/Users/stephanekrebs/.pyenv/versions/3.11.5/lib/python3.11/site-packages/pyarrow/pandas_compat.py", line 639, in dataframe_to_arrays
+    arrays = [convert_column(c, f)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/stephanekrebs/.pyenv/versions/3.11.5/lib/python3.11/site-packages/pyarrow/pandas_compat.py", line 639, in <listcomp>
+    arrays = [convert_column(c, f)
+              ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/stephanekrebs/.pyenv/versions/3.11.5/lib/python3.11/site-packages/pyarrow/pandas_compat.py", line 626, in convert_column
+    raise e
+  File "/Users/stephanekrebs/.pyenv/versions/3.11.5/lib/python3.11/site-packages/pyarrow/pandas_compat.py", line 620, in convert_column
+    result = pa.array(col, type=type_, from_pandas=True, safe=safe)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "pyarrow/array.pxi", line 365, in pyarrow.lib.array
+  File "pyarrow/array.pxi", line 90, in pyarrow.lib._ndarray_to_array
+  File "pyarrow/error.pxi", line 92, in pyarrow.lib.check_status
+pyarrow.lib.ArrowTypeError: ("Expected bytes, got a 'int' object", 'Conversion failed for column Valeur with type object')
+2026-04-08 19:51:27.582 Serialization of dataframe to Arrow table was unsuccessful. Applying automatic fixes for column types to make the dataframe Arrow-compatible.
+Traceback (most recent call last):
+  File "/Users/stephanekrebs/.pyenv/versions/3.11.5/lib/python3.11/site-packages/streamlit/dataframe_util.py", line 822, in convert_pandas_df_to_arrow_bytes
+    table = pa.Table.from_pandas(df)
+            ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "pyarrow/table.pxi", line 4793, in pyarrow.lib.Table.from_pandas
+  File "/Users/stephanekrebs/.pyenv/versions/3.11.5/lib/python3.11/site-packages/pyarrow/pandas_compat.py", line 639, in dataframe_to_arrays
+    arrays = [convert_column(c, f)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/stephanekrebs/.pyenv/versions/3.11.5/lib/python3.11/site-packages/pyarrow/pandas_compat.py", line 639, in <listcomp>
+    arrays = [convert_column(c, f)
+              ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/stephanekrebs/.pyenv/versions/3.11.5/lib/python3.11/site-packages/pyarrow/pandas_compat.py", line 626, in convert_column
+    raise e
+  File "/Users/stephanekrebs/.pyenv/versions/3.11.5/lib/python3.11/site-packages/pyarrow/pandas_compat.py", line 620, in convert_column
+    result = pa.array(col, type=type_, from_pandas=True, safe=safe)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "pyarrow/array.pxi", line 365, in pyarrow.lib.array
+  File "pyarrow/array.pxi", line 90, in pyarrow.lib._ndarray_to_array
+  File "pyarrow/error.pxi", line 92, in pyarrow.lib.check_status
+pyarrow.lib.ArrowTypeError: ("Expected bytes, got a 'int' object", 'Conversion failed for column Valeur with type object')
+2026-04-08 20:15:23.076 Serialization of dataframe to Arrow table was unsuccessful. Applying automatic fixes for column types to make the dataframe Arrow-compatible.
+Traceback (most recent call last):
+  File "/Users/stephanekrebs/.pyenv/versions/3.11.5/lib/python3.11/site-packages/streamlit/dataframe_util.py", line 822, in convert_pandas_df_to_arrow_bytes
+    table = pa.Table.from_pandas(df)
+            ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "pyarrow/table.pxi", line 4793, in pyarrow.lib.Table.from_pandas
+  File "/Users/stephanekrebs/.pyenv/versions/3.11.5/lib/python3.11/site-packages/pyarrow/pandas_compat.py", line 639, in dataframe_to_arrays
+    arrays = [convert_column(c, f)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/stephanekrebs/.pyenv/versions/3.11.5/lib/python3.11/site-packages/pyarrow/pandas_compat.py", line 639, in <listcomp>
+    arrays = [convert_column(c, f)
+              ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/stephanekrebs/.pyenv/versions/3.11.5/lib/python3.11/site-packages/pyarrow/pandas_compat.py", line 626, in convert_column
+    raise e
+  File "/Users/stephanekrebs/.pyenv/versions/3.11.5/lib/python3.11/site-packages/pyarrow/pandas_compat.py", line 620, in convert_column
+    result = pa.array(col, type=type_, from_pandas=True, safe=safe)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "pyarrow/array.pxi", line 365, in pyarrow.lib.array
+  File "pyarrow/array.pxi", line 90, in pyarrow.lib._ndarray_to_array
+  File "pyarrow/error.pxi", line 92, in pyarrow.lib.check_status
+pyarrow.lib.ArrowTypeError: ("Expected bytes, got a 'int' object", 'Conversion failed for column Valeur with type object')
+Entraînement:   0%|          | 0/50 [00:00<?, ?epoch/s]Entraînement:   2%|▏         | 1/50 [00:01<01:18,  1.60s/epoch]Entraînement:   4%|▍         | 2/50 [00:02<01:03,  1.32s/epoch]Entraînement:   6%|▌         | 3/50 [00:03<00:58,  1.25s/epoch]Entraînement:   8%|▊         | 4/50 [00:04<00:53,  1.17s/epoch]Entraînement:  10%|█         | 5/50 [00:06<00:51,  1.13s/epoch]Entraînement:  12%|█▏        | 6/50 [00:07<00:49,  1.13s/epoch]Entraînement:  14%|█▍        | 7/50 [00:08<00:49,  1.14s/epoch]Entraînement:  16%|█▌        | 8/50 [00:09<00:48,  1.15s/epoch]Entraînement:  18%|█▊        | 9/50 [00:10<00:46,  1.13s/epoch]                                                               Entraînement:  18%|█▊        | 9/50 [00:11<00:46,  1.13s/epoch]Entraînement:  20%|██        | 10/50 [00:11<00:44,  1.11s/epoch]Entraînement:  22%|██▏       | 11/50 [00:12<00:42,  1.09s/epoch]Entraînement:  24%|██▍       | 12/50 [00:13<00:43,  1.14s/epoch]Entraînement:  26%|██▌       | 13/50 [00:15<00:41,  1.13s/epoch]Entraînement:  28%|██▊       | 14/50 [00:16<00:40,  1.12s/epoch]Entraînement:  30%|███       | 15/50 [00:17<00:40,  1.17s/epoch]Entraînement:  32%|███▏      | 16/50 [00:18<00:40,  1.19s/epoch]Entraînement:  34%|███▍      | 17/50 [00:19<00:39,  1.20s/epoch]Entraînement:  36%|███▌      | 18/50 [00:20<00:37,  1.19s/epoch]Entraînement:  38%|███▊      | 19/50 [00:22<00:36,  1.18s/epoch]                                                                Entraînement:  38%|███▊      | 19/50 [00:23<00:36,  1.18s/epoch]Entraînement:  40%|████      | 20/50 [00:23<00:35,  1.20s/epoch]Entraînement:  42%|████▏     | 21/50 [00:24<00:35,  1.21s/epoch]Entraînement:  44%|████▍     | 22/50 [00:25<00:34,  1.22s/epoch]Entraînement:  46%|████▌     | 23/50 [00:27<00:32,  1.22s/epoch]Entraînement:  48%|████▊     | 24/50 [00:28<00:31,  1.23s/epoch]Entraînement:  50%|█████     | 25/50 [00:29<00:30,  1.23s/epoch]Entraînement:  52%|█████▏    | 26/50 [00:30<00:30,  1.27s/epoch]Entraînement:  54%|█████▍    | 27/50 [00:32<00:29,  1.29s/epoch]Entraînement:  56%|█████▌    | 28/50 [00:33<00:28,  1.30s/epoch]Entraînement:  58%|█████▊    | 29/50 [00:34<00:27,  1.29s/epoch]                                                                Entraînement:  58%|█████▊    | 29/50 [00:36<00:27,  1.29s/epoch]Entraînement:  60%|██████    | 30/50 [00:36<00:25,  1.30s/epoch]Entraînement:  62%|██████▏   | 31/50 [00:37<00:25,  1.33s/epoch]Entraînement:  64%|██████▍   | 32/50 [00:39<00:24,  1.36s/epoch]Entraînement:  66%|██████▌   | 33/50 [00:40<00:22,  1.34s/epoch]Entraînement:  68%|██████▊   | 34/50 [00:41<00:21,  1.36s/epoch]Entraînement:  70%|███████   | 35/50 [00:43<00:20,  1.36s/epoch]Entraînement:  72%|███████▏  | 36/50 [00:44<00:18,  1.35s/epoch]Entraînement:  74%|███████▍  | 37/50 [00:45<00:17,  1.35s/epoch]Entraînement:  76%|███████▌  | 38/50 [00:47<00:17,  1.48s/epoch]Entraînement:  78%|███████▊  | 39/50 [00:48<00:15,  1.45s/epoch]                                                                Entraînement:  78%|███████▊  | 39/50 [00:50<00:15,  1.45s/epoch]Entraînement:  80%|████████  | 40/50 [00:50<00:13,  1.40s/epoch]Entraînement:  82%|████████▏ | 41/50 [00:51<00:12,  1.34s/epoch]Entraînement:  84%|████████▍ | 42/50 [00:52<00:10,  1.32s/epoch]Entraînement:  86%|████████▌ | 43/50 [00:54<00:09,  1.31s/epoch]Entraînement:  88%|████████▊ | 44/50 [00:55<00:07,  1.28s/epoch]Entraînement:  90%|█████████ | 45/50 [00:56<00:06,  1.28s/epoch]Entraînement:  92%|█████████▏| 46/50 [00:57<00:05,  1.32s/epoch]Entraînement:  94%|█████████▍| 47/50 [00:59<00:03,  1.31s/epoch]Entraînement:  96%|█████████▌| 48/50 [01:00<00:02,  1.31s/epoch]Entraînement:  98%|█████████▊| 49/50 [01:01<00:01,  1.35s/epoch]                                                                Entraînement:  98%|█████████▊| 49/50 [01:03<00:01,  1.35s/epoch]Entraînement: 100%|██████████| 50/50 [01:03<00:00,  1.35s/epoch]Entraînement: 100%|██████████| 50/50 [01:03<00:00,  1.27s/epoch]
+[yfinance] 2111 jours téléchargés pour MC.PA
+[data] Sauvegardé → /Users/stephanekrebs/bureau/OPENCLAW/lstm-demo/data/raw/MC_PA.csv
+[yfinance] 2112 jours téléchargés pour MC.PA
+[data] Sauvegardé → /Users/stephanekrebs/bureau/OPENCLAW/lstm-demo/data/raw/MC_PA.csv
+[yfinance] 2115 jours téléchargés pour MC.PA
+[data] Sauvegardé → /Users/stephanekrebs/bureau/OPENCLAW/lstm-demo/data/raw/MC_PA.csv
+[31m──[0m[31m────────────────────────[0m[31m [0m[1;31mTraceback [0m[1;2;31m(most recent call last)[0m[31m [0m[31m─────────────────────────[0m[31m──[0m
+[31m [0m [2;33m/Users/stephanekrebs/.pyenv/versions/3.11.5/lib/python3.11/site-packages/streamlit/r[0m [31m [0m
+[31m [0m [2;33muntime/scriptrunner/[0m[1;33mexec_code.py[0m:[94m121[0m in [92mexec_func_with_error_handling[0m                [31m [0m
+[31m [0m                                                                                      [31m [0m
+[31m [0m [2;33m/Users/stephanekrebs/.pyenv/versions/3.11.5/lib/python3.11/site-packages/streamlit/r[0m [31m [0m
+[31m [0m [2;33muntime/scriptrunner/[0m[1;33mscript_runner.py[0m:[94m645[0m in [92mcode_to_exec[0m                             [31m [0m
+[31m [0m                                                                                      [31m [0m
+[31m [0m [2;33m/Users/stephanekrebs/bureau/OPENCLAW/lstm-demo/dashboard/[0m[1;33mapp.py[0m:[94m274[0m in [92m<module>[0m      [31m [0m
+[31m [0m                                                                                      [31m [0m
+[31m [0m   [2m271 [0m[2m│   [0mckpt = load_model_checkpoint()                                             [31m [0m
+[31m [0m   [2m272 [0m[2m│   [0m[94mif[0m ckpt [95mand[0m [33m"[0m[33mtrain_losses[0m[33m"[0m [95min[0m ckpt:                                        [31m [0m
+[31m [0m   [2m273 [0m[2m│   │   [0mst.markdown([33mf[0m[33m"[0m[33m_Modèle chargé — entraîné sur **[0m[33m{[0mckpt.get([33m'[0m[33mticker[0m[33m'[0m,[90m [0m[33m'[0m[33m?[0m[33m'[0m) [31m [0m
+[31m [0m [31m❱ [0m274 [2m│   │   [0m[1;4m_plot_loss_curve(ckpt)[0m                                                 [31m [0m
+[31m [0m   [2m275 [0m[2m│   [0m[94melif[0m ckpt [95mis[0m [94mNone[0m:                                                         [31m [0m
+[31m [0m   [2m276 [0m[2m│   │   [0mst.info([33m"[0m[33mAucun modèle entraîné détecté. Cliquez sur **Lancer l[0m[33m'[0m[33mentraîn[0m [31m [0m
+[31m [0m   [2m277 [0m                                                                               [31m [0m
+[31m [0m                                                                                      [31m [0m
+[31m [0m [2;33m/Users/stephanekrebs/bureau/OPENCLAW/lstm-demo/dashboard/[0m[1;33mapp.py[0m:[94m247[0m in               [31m [0m
+[31m [0m [92m_plot_loss_curve[0m                                                                     [31m [0m
+[31m [0m                                                                                      [31m [0m
+[31m [0m   [2m244 [0m[2m│   │   │   │   [0mhovermode=[33m"[0m[33mx unified[0m[33m"[0m,                                         [31m [0m
+[31m [0m   [2m245 [0m[2m│   │   │   [0m)                                                                  [31m [0m
+[31m [0m   [2m246 [0m[2m│   │   [0m)                                                                      [31m [0m
+[31m [0m [31m❱ [0m247 [2m│   │   [0m[1;4mst.plotly_chart(fig, use_container_width=[0m[1;4;94mTrue[0m[1;4m)[0m                         [31m [0m
+[31m [0m   [2m248 [0m[2m│   [0m                                                                           [31m [0m
+[31m [0m   [2m249 [0m[2m│   [0m[94mif[0m st.button([33m"[0m[33m🚀 Lancer l[0m[33m'[0m[33mentraînement[0m[33m"[0m):                                  [31m [0m
+[31m [0m   [2m250 [0m[2m│   │   [0mlog_placeholder = st.empty()                                           [31m [0m
+[31m [0m                                                                                      [31m [0m
+[31m [0m [2;33m/Users/stephanekrebs/.pyenv/versions/3.11.5/lib/python3.11/site-packages/streamlit/r[0m [31m [0m
+[31m [0m [2;33muntime/[0m[1;33mmetrics_util.py[0m:[94m444[0m in [92mwrapped_func[0m                                           [31m [0m
+[31m [0m                                                                                      [31m [0m
+[31m [0m [2;33m/Users/stephanekrebs/.pyenv/versions/3.11.5/lib/python3.11/site-packages/streamlit/e[0m [31m [0m
+[31m [0m [2;33mlements/[0m[1;33mplotly_chart.py[0m:[94m509[0m in [92mplotly_chart[0m                                          [31m [0m
+[31m [0m                                                                                      [31m [0m
+[31m [0m [2;33m/Users/stephanekrebs/.pyenv/versions/3.11.5/lib/python3.11/site-packages/streamlit/e[0m [31m [0m
+[31m [0m [2;33mlements/lib/[0m[1;33mutils.py[0m:[94m239[0m in [92mcompute_and_register_element_id[0m                          [31m [0m
+[31m [0m                                                                                      [31m [0m
+[31m [0m [2;33m/Users/stephanekrebs/.pyenv/versions/3.11.5/lib/python3.11/site-packages/streamlit/e[0m [31m [0m
+[31m [0m [2;33mlements/lib/[0m[1;33mutils.py[0m:[94m145[0m in [92m_register_element_id[0m                                     [31m [0m
+[31m────────────────────────────────────────────────────────────────────────────────────────[0m
+[1;91mStreamlitDuplicateElementId: [0mThere are multiple `plotly_chart` elements with the same 
+auto-generated ID. When this element is created, it is assigned an internal ID based on 
+the element type and provided parameters. Multiple elements with the same type and 
+parameters will cause this error.
+
+To fix this error, please pass a unique `key` argument to the `plotly_chart` element.
+2026-04-08 20:26:42.839 Serialization of dataframe to Arrow table was unsuccessful. Applying automatic fixes for column types to make the dataframe Arrow-compatible.
+Traceback (most recent call last):
+  File "/Users/stephanekrebs/.pyenv/versions/3.11.5/lib/python3.11/site-packages/streamlit/dataframe_util.py", line 822, in convert_pandas_df_to_arrow_bytes
+    table = pa.Table.from_pandas(df)
+            ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "pyarrow/table.pxi", line 4793, in pyarrow.lib.Table.from_pandas
+  File "/Users/stephanekrebs/.pyenv/versions/3.11.5/lib/python3.11/site-packages/pyarrow/pandas_compat.py", line 639, in dataframe_to_arrays
+    arrays = [convert_column(c, f)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/stephanekrebs/.pyenv/versions/3.11.5/lib/python3.11/site-packages/pyarrow/pandas_compat.py", line 639, in <listcomp>
+    arrays = [convert_column(c, f)
+              ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/stephanekrebs/.pyenv/versions/3.11.5/lib/python3.11/site-packages/pyarrow/pandas_compat.py", line 626, in convert_column
+    raise e
+  File "/Users/stephanekrebs/.pyenv/versions/3.11.5/lib/python3.11/site-packages/pyarrow/pandas_compat.py", line 620, in convert_column
+    result = pa.array(col, type=type_, from_pandas=True, safe=safe)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "pyarrow/array.pxi", line 365, in pyarrow.lib.array
+  File "pyarrow/array.pxi", line 90, in pyarrow.lib._ndarray_to_array
+  File "pyarrow/error.pxi", line 92, in pyarrow.lib.check_status
+pyarrow.lib.ArrowTypeError: ("Expected bytes, got a 'int' object", 'Conversion failed for column Valeur with type object')
+2026-04-08 20:26:53.912 Serialization of dataframe to Arrow table was unsuccessful. Applying automatic fixes for column types to make the dataframe Arrow-compatible.
+Traceback (most recent call last):
+  File "/Users/stephanekrebs/.pyenv/versions/3.11.5/lib/python3.11/site-packages/streamlit/dataframe_util.py", line 822, in convert_pandas_df_to_arrow_bytes
+    table = pa.Table.from_pandas(df)
+            ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "pyarrow/table.pxi", line 4793, in pyarrow.lib.Table.from_pandas
+  File "/Users/stephanekrebs/.pyenv/versions/3.11.5/lib/python3.11/site-packages/pyarrow/pandas_compat.py", line 639, in dataframe_to_arrays
+    arrays = [convert_column(c, f)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/stephanekrebs/.pyenv/versions/3.11.5/lib/python3.11/site-packages/pyarrow/pandas_compat.py", line 639, in <listcomp>
+    arrays = [convert_column(c, f)
+              ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/stephanekrebs/.pyenv/versions/3.11.5/lib/python3.11/site-packages/pyarrow/pandas_compat.py", line 626, in convert_column
+    raise e
+  File "/Users/stephanekrebs/.pyenv/versions/3.11.5/lib/python3.11/site-packages/pyarrow/pandas_compat.py", line 620, in convert_column
+    result = pa.array(col, type=type_, from_pandas=True, safe=safe)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "pyarrow/array.pxi", line 365, in pyarrow.lib.array
+  File "pyarrow/array.pxi", line 90, in pyarrow.lib._ndarray_to_array
+  File "pyarrow/error.pxi", line 92, in pyarrow.lib.check_status
+pyarrow.lib.ArrowTypeError: ("Expected bytes, got a 'int' object", 'Conversion failed for column Valeur with type object')
+2026-04-08 20:26:55.269 Serialization of dataframe to Arrow table was unsuccessful. Applying automatic fixes for column types to make the dataframe Arrow-compatible.
+Traceback (most recent call last):
+  File "/Users/stephanekrebs/.pyenv/versions/3.11.5/lib/python3.11/site-packages/streamlit/dataframe_util.py", line 822, in convert_pandas_df_to_arrow_bytes
+    table = pa.Table.from_pandas(df)
+            ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "pyarrow/table.pxi", line 4793, in pyarrow.lib.Table.from_pandas
+  File "/Users/stephanekrebs/.pyenv/versions/3.11.5/lib/python3.11/site-packages/pyarrow/pandas_compat.py", line 639, in dataframe_to_arrays
+    arrays = [convert_column(c, f)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/stephanekrebs/.pyenv/versions/3.11.5/lib/python3.11/site-packages/pyarrow/pandas_compat.py", line 639, in <listcomp>
+    arrays = [convert_column(c, f)
+              ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/stephanekrebs/.pyenv/versions/3.11.5/lib/python3.11/site-packages/pyarrow/pandas_compat.py", line 626, in convert_column
+    raise e
+  File "/Users/stephanekrebs/.pyenv/versions/3.11.5/lib/python3.11/site-packages/pyarrow/pandas_compat.py", line 620, in convert_column
+    result = pa.array(col, type=type_, from_pandas=True, safe=safe)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "pyarrow/array.pxi", line 365, in pyarrow.lib.array
+  File "pyarrow/array.pxi", line 90, in pyarrow.lib._ndarray_to_array
+  File "pyarrow/error.pxi", line 92, in pyarrow.lib.check_status
+pyarrow.lib.ArrowTypeError: ("Expected bytes, got a 'int' object", 'Conversion failed for column Valeur with type object')
+Entraînement:   0%|          | 0/50 [00:00<?, ?epoch/s]Entraînement:   2%|▏         | 1/50 [00:01<01:15,  1.54s/epoch]Entraînement:   4%|▍         | 2/50 [00:02<01:02,  1.31s/epoch]Entraînement:   6%|▌         | 3/50 [00:03<00:59,  1.26s/epoch]Entraînement:   8%|▊         | 4/50 [00:05<00:56,  1.22s/epoch]Entraînement:  10%|█         | 5/50 [00:06<01:02,  1.39s/epoch]Entraînement:  12%|█▏        | 6/50 [00:08<00:59,  1.36s/epoch]Entraînement:  14%|█▍        | 7/50 [00:09<00:59,  1.39s/epoch]Entraînement:  16%|█▌        | 8/50 [00:10<00:57,  1.37s/epoch]Entraînement:  18%|█▊        | 9/50 [00:12<00:56,  1.38s/epoch]                                                               Entraînement:  18%|█▊        | 9/50 [00:13<00:56,  1.38s/epoch]Entraînement:  20%|██        | 10/50 [00:13<00:55,  1.39s/epoch]Entraînement:  22%|██▏       | 11/50 [00:15<00:55,  1.43s/epoch]Entraînement:  24%|██▍       | 12/50 [00:16<00:57,  1.50s/epoch]Entraînement:  26%|██▌       | 13/50 [00:18<00:57,  1.54s/epoch]Entraînement:  28%|██▊       | 14/50 [00:19<00:54,  1.52s/epoch]Entraînement:  30%|███       | 15/50 [00:21<00:52,  1.50s/epoch]Entraînement:  32%|███▏      | 16/50 [00:22<00:52,  1.54s/epoch]Entraînement:  34%|███▍      | 17/50 [00:24<00:54,  1.64s/epoch]Entraînement:  36%|███▌      | 18/50 [00:27<00:59,  1.87s/epoch]Entraînement:  38%|███▊      | 19/50 [00:28<00:55,  1.80s/epoch]                                                                Entraînement:  38%|███▊      | 19/50 [00:30<00:55,  1.80s/epoch]Entraînement:  40%|████      | 20/50 [00:30<00:54,  1.82s/epoch]Entraînement:  42%|████▏     | 21/50 [00:32<00:54,  1.88s/epoch]Entraînement:  44%|████▍     | 22/50 [00:34<00:52,  1.88s/epoch]Entraînement:  46%|████▌     | 23/50 [00:36<00:51,  1.91s/epoch]Entraînement:  48%|████▊     | 24/50 [00:38<00:49,  1.91s/epoch]Entraînement:  50%|█████     | 25/50 [00:40<00:47,  1.89s/epoch]Entraînement:  52%|█████▏    | 26/50 [00:42<00:49,  2.08s/epoch]Entraînement:  54%|█████▍    | 27/50 [00:45<00:48,  2.09s/epoch]Entraînement:  56%|█████▌    | 28/50 [00:47<00:46,  2.12s/epoch]Entraînement:  58%|█████▊    | 29/50 [00:49<00:47,  2.27s/epoch]                                                                Entraînement:  58%|█████▊    | 29/50 [00:52<00:47,  2.27s/epoch]Entraînement:  60%|██████    | 30/50 [00:52<00:45,  2.30s/epoch]Entraînement:  62%|██████▏   | 31/50 [00:55<00:46,  2.45s/epoch]Entraînement:  64%|██████▍   | 32/50 [00:57<00:43,  2.42s/epoch]Entraînement:  66%|██████▌   | 33/50 [00:59<00:40,  2.39s/epoch]Entraînement:  68%|██████▊   | 34/50 [01:01<00:37,  2.34s/epoch]Entraînement:  70%|███████   | 35/50 [01:04<00:35,  2.37s/epoch]Entraînement:  72%|███████▏  | 36/50 [01:07<00:34,  2.46s/epoch]Entraînement:  74%|███████▍  | 37/50 [01:09<00:33,  2.59s/epoch]Entraînement:  76%|███████▌  | 38/50 [01:12<00:31,  2.59s/epoch]Entraînement:  78%|███████▊  | 39/50 [01:15<00:29,  2.64s/epoch]                                                                Entraînement:  78%|███████▊  | 39/50 [01:17<00:29,  2.64s/epoch]Entraînement:  80%|████████  | 40/50 [01:17<00:26,  2.62s/epoch]Entraînement:  82%|████████▏ | 41/50 [01:20<00:23,  2.58s/epoch]Entraînement:  84%|████████▍ | 42/50 [01:22<00:20,  2.54s/epoch]Entraînement:  86%|████████▌ | 43/50 [01:26<00:19,  2.78s/epoch]Entraînement:  88%|████████▊ | 44/50 [01:28<00:16,  2.79s/epoch]Entraînement:  90%|█████████ | 45/50 [01:31<00:13,  2.67s/epoch]Entraînement:  92%|█████████▏| 46/50 [01:34<00:10,  2.68s/epoch]Entraînement:  94%|█████████▍| 47/50 [01:36<00:07,  2.64s/epoch]Entraînement:  96%|█████████▌| 48/50 [01:39<00:05,  2.59s/epoch]Entraînement:  98%|█████████▊| 49/50 [01:41<00:02,  2.51s/epoch]                                                                Entraînement:  98%|█████████▊| 49/50 [01:43<00:02,  2.51s/epoch]Entraînement: 100%|██████████| 50/50 [01:43<00:00,  2.45s/epoch]Entraînement: 100%|██████████| 50/50 [01:43<00:00,  2.07s/epoch]
+[31m──[0m[31m────────────────────────[0m[31m [0m[1;31mTraceback [0m[1;2;31m(most recent call last)[0m[31m [0m[31m─────────────────────────[0m[31m──[0m
+[31m [0m [2;33m/Users/stephanekrebs/.pyenv/versions/3.11.5/lib/python3.11/site-packages/streamlit/r[0m [31m [0m
+[31m [0m [2;33muntime/scriptrunner/[0m[1;33mexec_code.py[0m:[94m121[0m in [92mexec_func_with_error_handling[0m                [31m [0m
+[31m [0m                                                                                      [31m [0m
+[31m [0m [2;33m/Users/stephanekrebs/.pyenv/versions/3.11.5/lib/python3.11/site-packages/streamlit/r[0m [31m [0m
+[31m [0m [2;33muntime/scriptrunner/[0m[1;33mscript_runner.py[0m:[94m645[0m in [92mcode_to_exec[0m                             [31m [0m
+[31m [0m                                                                                      [31m [0m
+[31m [0m [2;33m/Users/stephanekrebs/bureau/OPENCLAW/lstm-demo/dashboard/[0m[1;33mapp.py[0m:[94m274[0m in [92m<module>[0m      [31m [0m
+[31m [0m                                                                                      [31m [0m
+[31m [0m   [2m271 [0m[2m│   [0mckpt = load_model_checkpoint()                                             [31m [0m
+[31m [0m   [2m272 [0m[2m│   [0m[94mif[0m ckpt [95mand[0m [33m"[0m[33mtrain_losses[0m[33m"[0m [95min[0m ckpt:                                        [31m [0m
+[31m [0m   [2m273 [0m[2m│   │   [0mst.markdown([33mf[0m[33m"[0m[33m_Modèle chargé — entraîné sur **[0m[33m{[0mckpt.get([33m'[0m[33mticker[0m[33m'[0m,[90m [0m[33m'[0m[33m?[0m[33m'[0m) [31m [0m
+[31m [0m [31m❱ [0m274 [2m│   │   [0m[1;4m_plot_loss_curve(ckpt)[0m                                                 [31m [0m
+[31m [0m   [2m275 [0m[2m│   [0m[94melif[0m ckpt [95mis[0m [94mNone[0m:                                                         [31m [0m
+[31m [0m   [2m276 [0m[2m│   │   [0mst.info([33m"[0m[33mAucun modèle entraîné détecté. Cliquez sur **Lancer l[0m[33m'[0m[33mentraîn[0m [31m [0m
+[31m [0m   [2m277 [0m                                                                               [31m [0m
+[31m [0m                                                                                      [31m [0m
+[31m [0m [2;33m/Users/stephanekrebs/bureau/OPENCLAW/lstm-demo/dashboard/[0m[1;33mapp.py[0m:[94m247[0m in               [31m [0m
+[31m [0m [92m_plot_loss_curve[0m                                                                     [31m [0m
+[31m [0m                                                                                      [31m [0m
+[31m [0m   [2m244 [0m[2m│   │   │   │   [0mhovermode=[33m"[0m[33mx unified[0m[33m"[0m,                                         [31m [0m
+[31m [0m   [2m245 [0m[2m│   │   │   [0m)                                                                  [31m [0m
+[31m [0m   [2m246 [0m[2m│   │   [0m)                                                                      [31m [0m
+[31m [0m [31m❱ [0m247 [2m│   │   [0m[1;4mst.plotly_chart(fig, use_container_width=[0m[1;4;94mTrue[0m[1;4m)[0m                         [31m [0m
+[31m [0m   [2m248 [0m[2m│   [0m                                                                           [31m [0m
+[31m [0m   [2m249 [0m[2m│   [0m[94mif[0m st.button([33m"[0m[33m🚀 Lancer l[0m[33m'[0m[33mentraînement[0m[33m"[0m):                                  [31m [0m
+[31m [0m   [2m250 [0m[2m│   │   [0mlog_placeholder = st.empty()                                           [31m [0m
+[31m [0m                                                                                      [31m [0m
+[31m [0m [2;33m/Users/stephanekrebs/.pyenv/versions/3.11.5/lib/python3.11/site-packages/streamlit/r[0m [31m [0m
+[31m [0m [2;33muntime/[0m[1;33mmetrics_util.py[0m:[94m444[0m in [92mwrapped_func[0m                                           [31m [0m
+[31m [0m                                                                                      [31m [0m
+[31m [0m [2;33m/Users/stephanekrebs/.pyenv/versions/3.11.5/lib/python3.11/site-packages/streamlit/e[0m [31m [0m
+[31m [0m [2;33mlements/[0m[1;33mplotly_chart.py[0m:[94m509[0m in [92mplotly_chart[0m                                          [31m [0m
+[31m [0m                                                                                      [31m [0m
+[31m [0m [2;33m/Users/stephanekrebs/.pyenv/versions/3.11.5/lib/python3.11/site-packages/streamlit/e[0m [31m [0m
+[31m [0m [2;33mlements/lib/[0m[1;33mutils.py[0m:[94m239[0m in [92mcompute_and_register_element_id[0m                          [31m [0m
+[31m [0m                                                                                      [31m [0m
+[31m [0m [2;33m/Users/stephanekrebs/.pyenv/versions/3.11.5/lib/python3.11/site-packages/streamlit/e[0m [31m [0m
+[31m [0m [2;33mlements/lib/[0m[1;33mutils.py[0m:[94m145[0m in [92m_register_element_id[0m                                     [31m [0m
+[31m────────────────────────────────────────────────────────────────────────────────────────[0m
+[1;91mStreamlitDuplicateElementId: [0mThere are multiple `plotly_chart` elements with the same 
+auto-generated ID. When this element is created, it is assigned an internal ID based on 
+the element type and provided parameters. Multiple elements with the same type and 
+parameters will cause this error.
+
+To fix this error, please pass a unique `key` argument to the `plotly_chart` element.
+2026-04-08 20:29:46.521 Serialization of dataframe to Arrow table was unsuccessful. Applying automatic fixes for column types to make the dataframe Arrow-compatible.
+Traceback (most recent call last):
+  File "/Users/stephanekrebs/.pyenv/versions/3.11.5/lib/python3.11/site-packages/streamlit/dataframe_util.py", line 822, in convert_pandas_df_to_arrow_bytes
+    table = pa.Table.from_pandas(df)
+            ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "pyarrow/table.pxi", line 4793, in pyarrow.lib.Table.from_pandas
+  File "/Users/stephanekrebs/.pyenv/versions/3.11.5/lib/python3.11/site-packages/pyarrow/pandas_compat.py", line 639, in dataframe_to_arrays
+    arrays = [convert_column(c, f)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/stephanekrebs/.pyenv/versions/3.11.5/lib/python3.11/site-packages/pyarrow/pandas_compat.py", line 639, in <listcomp>
+    arrays = [convert_column(c, f)
+              ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/stephanekrebs/.pyenv/versions/3.11.5/lib/python3.11/site-packages/pyarrow/pandas_compat.py", line 626, in convert_column
+    raise e
+  File "/Users/stephanekrebs/.pyenv/versions/3.11.5/lib/python3.11/site-packages/pyarrow/pandas_compat.py", line 620, in convert_column
+    result = pa.array(col, type=type_, from_pandas=True, safe=safe)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "pyarrow/array.pxi", line 365, in pyarrow.lib.array
+  File "pyarrow/array.pxi", line 90, in pyarrow.lib._ndarray_to_array
+  File "pyarrow/error.pxi", line 92, in pyarrow.lib.check_status
+pyarrow.lib.ArrowTypeError: ("Expected bytes, got a 'int' object", 'Conversion failed for column Valeur with type object')
+Entraînement:   0%|          | 0/50 [00:00<?, ?epoch/s]Entraînement:   2%|▏         | 1/50 [00:01<01:07,  1.38s/epoch]Entraînement:   4%|▍         | 2/50 [00:02<01:05,  1.37s/epoch]Entraînement:   6%|▌         | 3/50 [00:04<01:04,  1.37s/epoch]Entraînement:   8%|▊         | 4/50 [00:05<01:02,  1.35s/epoch]Entraînement:  10%|█         | 5/50 [00:07<01:06,  1.48s/epoch]Entraînement:  12%|█▏        | 6/50 [00:08<01:04,  1.46s/epoch]Entraînement:  14%|█▍        | 7/50 [00:10<01:04,  1.51s/epoch]Entraînement:  16%|█▌        | 8/50 [00:11<01:05,  1.56s/epoch]Entraînement:  18%|█▊        | 9/50 [00:13<01:04,  1.58s/epoch]                                                               Entraînement:  18%|█▊        | 9/50 [00:14<01:04,  1.58s/epoch]Entraînement:  20%|██        | 10/50 [00:14<01:00,  1.52s/epoch]Entraînement:  22%|██▏       | 11/50 [00:16<01:00,  1.54s/epoch]Entraînement:  24%|██▍       | 12/50 [00:17<00:57,  1.52s/epoch]Entraînement:  26%|██▌       | 13/50 [00:19<00:54,  1.47s/epoch]Entraînement:  28%|██▊       | 14/50 [00:20<00:53,  1.49s/epoch]Entraînement:  30%|███       | 15/50 [00:22<00:52,  1.51s/epoch]Entraînement:  32%|███▏      | 16/50 [00:23<00:50,  1.49s/epoch]Entraînement:  34%|███▍      | 17/50 [00:25<00:48,  1.47s/epoch]Entraînement:  36%|███▌      | 18/50 [00:26<00:47,  1.49s/epoch]Entraînement:  38%|███▊      | 19/50 [00:28<00:47,  1.52s/epoch]                                                                Entraînement:  38%|███▊      | 19/50 [00:30<00:47,  1.52s/epoch]Entraînement:  40%|████      | 20/50 [00:30<00:46,  1.56s/epoch]Entraînement:  42%|████▏     | 21/50 [00:31<00:45,  1.58s/epoch]Entraînement:  44%|████▍     | 22/50 [00:33<00:46,  1.66s/epoch]Entraînement:  46%|████▌     | 23/50 [00:35<00:44,  1.64s/epoch]Entraînement:  48%|████▊     | 24/50 [00:37<00:46,  1.78s/epoch]Entraînement:  50%|█████     | 25/50 [00:38<00:44,  1.78s/epoch]Entraînement:  52%|█████▏    | 26/50 [00:40<00:42,  1.77s/epoch]Entraînement:  54%|█████▍    | 27/50 [00:42<00:40,  1.76s/epoch]Entraînement:  56%|█████▌    | 28/50 [00:44<00:40,  1.82s/epoch]Entraînement:  58%|█████▊    | 29/50 [00:46<00:39,  1.86s/epoch]                                                                Entraînement:  58%|█████▊    | 29/50 [00:48<00:39,  1.86s/epoch]Entraînement:  60%|██████    | 30/50 [00:48<00:37,  1.89s/epoch]Entraînement:  62%|██████▏   | 31/50 [00:50<00:37,  1.98s/epoch]Entraînement:  64%|██████▍   | 32/50 [00:52<00:35,  1.99s/epoch]Entraînement:  66%|██████▌   | 33/50 [00:54<00:34,  2.02s/epoch]Entraînement:  68%|██████▊   | 34/50 [00:56<00:31,  1.95s/epoch]Entraînement:  70%|███████   | 35/50 [00:58<00:29,  1.96s/epoch]Entraînement:  72%|███████▏  | 36/50 [01:00<00:28,  2.03s/epoch]Entraînement:  74%|███████▍  | 37/50 [01:03<00:28,  2.16s/epoch]Entraînement:  76%|███████▌  | 38/50 [01:05<00:26,  2.17s/epoch]Entraînement:  78%|███████▊  | 39/50 [01:07<00:23,  2.16s/epoch]                                                                Entraînement:  78%|███████▊  | 39/50 [01:09<00:23,  2.16s/epoch]Entraînement:  80%|████████  | 40/50 [01:09<00:20,  2.09s/epoch]Entraînement:  82%|████████▏ | 41/50 [01:11<00:18,  2.05s/epoch]Entraînement:  84%|████████▍ | 42/50 [01:13<00:15,  1.99s/epoch]Entraînement:  86%|████████▌ | 43/50 [01:15<00:13,  1.97s/epoch]Entraînement:  88%|████████▊ | 44/50 [01:17<00:11,  2.00s/epoch]Entraînement:  90%|█████████ | 45/50 [01:19<00:10,  2.07s/epoch]Entraînement:  92%|█████████▏| 46/50 [01:21<00:08,  2.06s/epoch]Entraînement:  94%|█████████▍| 47/50 [01:23<00:05,  1.98s/epoch]Entraînement:  96%|█████████▌| 48/50 [01:25<00:03,  1.95s/epoch]Entraînement:  98%|█████████▊| 49/50 [01:26<00:01,  1.90s/epoch]                                                                Entraînement:  98%|█████████▊| 49/50 [01:28<00:01,  1.90s/epoch]Entraînement: 100%|██████████| 50/50 [01:28<00:00,  1.89s/epoch]Entraînement: 100%|██████████| 50/50 [01:28<00:00,  1.77s/epoch]
+[31m──[0m[31m────────────────────────[0m[31m [0m[1;31mTraceback [0m[1;2;31m(most recent call last)[0m[31m [0m[31m─────────────────────────[0m[31m──[0m
+[31m [0m [2;33m/Users/stephanekrebs/.pyenv/versions/3.11.5/lib/python3.11/site-packages/streamlit/r[0m [31m [0m
+[31m [0m [2;33muntime/scriptrunner/[0m[1;33mexec_code.py[0m:[94m121[0m in [92mexec_func_with_error_handling[0m                [31m [0m
+[31m [0m                                                                                      [31m [0m
+[31m [0m [2;33m/Users/stephanekrebs/.pyenv/versions/3.11.5/lib/python3.11/site-packages/streamlit/r[0m [31m [0m
+[31m [0m [2;33muntime/scriptrunner/[0m[1;33mscript_runner.py[0m:[94m645[0m in [92mcode_to_exec[0m                             [31m [0m
+[31m [0m                                                                                      [31m [0m
+[31m [0m [2;33m/Users/stephanekrebs/bureau/OPENCLAW/lstm-demo/dashboard/[0m[1;33mapp.py[0m:[94m274[0m in [92m<module>[0m      [31m [0m
+[31m [0m                                                                                      [31m [0m
+[31m [0m   [2m271 [0m[2m│   [0mckpt = load_model_checkpoint()                                             [31m [0m
+[31m [0m   [2m272 [0m[2m│   [0m[94mif[0m ckpt [95mand[0m [33m"[0m[33mtrain_losses[0m[33m"[0m [95min[0m ckpt:                                        [31m [0m
+[31m [0m   [2m273 [0m[2m│   │   [0mst.markdown([33mf[0m[33m"[0m[33m_Modèle chargé — entraîné sur **[0m[33m{[0mckpt.get([33m'[0m[33mticker[0m[33m'[0m,[90m [0m[33m'[0m[33m?[0m[33m'[0m) [31m [0m
+[31m [0m [31m❱ [0m274 [2m│   │   [0m[1;4m_plot_loss_curve(ckpt)[0m                                                 [31m [0m
+[31m [0m   [2m275 [0m[2m│   [0m[94melif[0m ckpt [95mis[0m [94mNone[0m:                                                         [31m [0m
+[31m [0m   [2m276 [0m[2m│   │   [0mst.info([33m"[0m[33mAucun modèle entraîné détecté. Cliquez sur **Lancer l[0m[33m'[0m[33mentraîn[0m [31m [0m
+[31m [0m   [2m277 [0m                                                                               [31m [0m
+[31m [0m                                                                                      [31m [0m
+[31m [0m [2;33m/Users/stephanekrebs/bureau/OPENCLAW/lstm-demo/dashboard/[0m[1;33mapp.py[0m:[94m247[0m in               [31m [0m
+[31m [0m [92m_plot_loss_curve[0m                                                                     [31m [0m
+[31m [0m                                                                                      [31m [0m
+[31m [0m   [2m244 [0m[2m│   │   │   │   [0mhovermode=[33m"[0m[33mx unified[0m[33m"[0m,                                         [31m [0m
+[31m [0m   [2m245 [0m[2m│   │   │   [0m)                                                                  [31m [0m
+[31m [0m   [2m246 [0m[2m│   │   [0m)                                                                      [31m [0m
+[31m [0m [31m❱ [0m247 [2m│   │   [0m[1;4mst.plotly_chart(fig, use_container_width=[0m[1;4;94mTrue[0m[1;4m)[0m                         [31m [0m
+[31m [0m   [2m248 [0m[2m│   [0m                                                                           [31m [0m
+[31m [0m   [2m249 [0m[2m│   [0m[94mif[0m st.button([33m"[0m[33m🚀 Lancer l[0m[33m'[0m[33mentraînement[0m[33m"[0m):                                  [31m [0m
+[31m [0m   [2m250 [0m[2m│   │   [0mlog_placeholder = st.empty()                                           [31m [0m
+[31m [0m                                                                                      [31m [0m
+[31m [0m [2;33m/Users/stephanekrebs/.pyenv/versions/3.11.5/lib/python3.11/site-packages/streamlit/r[0m [31m [0m
+[31m [0m [2;33muntime/[0m[1;33mmetrics_util.py[0m:[94m444[0m in [92mwrapped_func[0m                                           [31m [0m
+[31m [0m                                                                                      [31m [0m
+[31m [0m [2;33m/Users/stephanekrebs/.pyenv/versions/3.11.5/lib/python3.11/site-packages/streamlit/e[0m [31m [0m
+[31m [0m [2;33mlements/[0m[1;33mplotly_chart.py[0m:[94m509[0m in [92mplotly_chart[0m                                          [31m [0m
+[31m [0m                                                                                      [31m [0m
+[31m [0m [2;33m/Users/stephanekrebs/.pyenv/versions/3.11.5/lib/python3.11/site-packages/streamlit/e[0m [31m [0m
+[31m [0m [2;33mlements/lib/[0m[1;33mutils.py[0m:[94m239[0m in [92mcompute_and_register_element_id[0m                          [31m [0m
+[31m [0m                                                                                      [31m [0m
+[31m [0m [2;33m/Users/stephanekrebs/.pyenv/versions/3.11.5/lib/python3.11/site-packages/streamlit/e[0m [31m [0m
+[31m [0m [2;33mlements/lib/[0m[1;33mutils.py[0m:[94m145[0m in [92m_register_element_id[0m                                     [31m [0m
+[31m────────────────────────────────────────────────────────────────────────────────────────[0m
+[1;91mStreamlitDuplicateElementId: [0mThere are multiple `plotly_chart` elements with the same 
+auto-generated ID. When this element is created, it is assigned an internal ID based on 
+the element type and provided parameters. Multiple elements with the same type and 
+parameters will cause this error.
+
+To fix this error, please pass a unique `key` argument to the `plotly_chart` element.
+2026-04-08 20:40:58.138 Serialization of dataframe to Arrow table was unsuccessful. Applying automatic fixes for column types to make the dataframe Arrow-compatible.
+Traceback (most recent call last):
+  File "/Users/stephanekrebs/.pyenv/versions/3.11.5/lib/python3.11/site-packages/streamlit/dataframe_util.py", line 822, in convert_pandas_df_to_arrow_bytes
+    table = pa.Table.from_pandas(df)
+            ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "pyarrow/table.pxi", line 4793, in pyarrow.lib.Table.from_pandas
+  File "/Users/stephanekrebs/.pyenv/versions/3.11.5/lib/python3.11/site-packages/pyarrow/pandas_compat.py", line 639, in dataframe_to_arrays
+    arrays = [convert_column(c, f)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/stephanekrebs/.pyenv/versions/3.11.5/lib/python3.11/site-packages/pyarrow/pandas_compat.py", line 639, in <listcomp>
+    arrays = [convert_column(c, f)
+              ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/stephanekrebs/.pyenv/versions/3.11.5/lib/python3.11/site-packages/pyarrow/pandas_compat.py", line 626, in convert_column
+    raise e
+  File "/Users/stephanekrebs/.pyenv/versions/3.11.5/lib/python3.11/site-packages/pyarrow/pandas_compat.py", line 620, in convert_column
+    result = pa.array(col, type=type_, from_pandas=True, safe=safe)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "pyarrow/array.pxi", line 365, in pyarrow.lib.array
+  File "pyarrow/array.pxi", line 90, in pyarrow.lib._ndarray_to_array
+  File "pyarrow/error.pxi", line 92, in pyarrow.lib.check_status
+pyarrow.lib.ArrowTypeError: ("Expected bytes, got a 'int' object", 'Conversion failed for column Valeur with type object')
+Entraînement:   0%|          | 0/50 [00:00<?, ?epoch/s]Entraînement:   2%|▏         | 1/50 [00:01<00:57,  1.17s/epoch]Entraînement:   4%|▍         | 2/50 [00:02<00:56,  1.18s/epoch]Entraînement:   6%|▌         | 3/50 [00:03<01:03,  1.36s/epoch]Entraînement:   8%|▊         | 4/50 [00:05<00:59,  1.29s/epoch]Entraînement:  10%|█         | 5/50 [00:06<00:54,  1.20s/epoch]Entraînement:  12%|█▏        | 6/50 [00:07<00:49,  1.12s/epoch]Entraînement:  14%|█▍        | 7/50 [00:08<00:46,  1.08s/epoch]Entraînement:  16%|█▌        | 8/50 [00:09<00:44,  1.06s/epoch]Entraînement:  18%|█▊        | 9/50 [00:10<00:44,  1.09s/epoch]                                                               Entraînement:  18%|█▊        | 9/50 [00:11<00:44,  1.09s/epoch]Entraînement:  20%|██        | 10/50 [00:11<00:44,  1.11s/epoch]Entraînement:  22%|██▏       | 11/50 [00:12<00:42,  1.10s/epoch]Entraînement:  24%|██▍       | 12/50 [00:13<00:41,  1.09s/epoch]Entraînement:  26%|██▌       | 13/50 [00:14<00:40,  1.10s/epoch]Entraînement:  28%|██▊       | 14/50 [00:15<00:39,  1.09s/epoch]Entraînement:  30%|███       | 15/50 [00:16<00:37,  1.07s/epoch]Entraînement:  32%|███▏      | 16/50 [00:17<00:35,  1.06s/epoch]Entraînement:  34%|███▍      | 17/50 [00:18<00:35,  1.06s/epoch]Entraînement:  36%|███▌      | 18/50 [00:19<00:33,  1.06s/epoch]Entraînement:  38%|███▊      | 19/50 [00:20<00:32,  1.05s/epoch]                                                                Entraînement:  38%|███▊      | 19/50 [00:22<00:32,  1.05s/epoch]Entraînement:  40%|████      | 20/50 [00:22<00:33,  1.13s/epoch]Entraînement:  42%|████▏     | 21/50 [00:23<00:32,  1.13s/epoch]Entraînement:  44%|████▍     | 22/50 [00:24<00:32,  1.16s/epoch]Entraînement:  46%|████▌     | 23/50 [00:25<00:31,  1.17s/epoch]Entraînement:  48%|████▊     | 24/50 [00:27<00:32,  1.24s/epoch]Entraînement:  50%|█████     | 25/50 [00:28<00:31,  1.25s/epoch]Entraînement:  52%|█████▏    | 26/50 [00:29<00:29,  1.24s/epoch]Entraînement:  54%|█████▍    | 27/50 [00:31<00:28,  1.26s/epoch]Entraînement:  56%|█████▌    | 28/50 [00:32<00:28,  1.27s/epoch]Entraînement:  58%|█████▊    | 29/50 [00:33<00:26,  1.28s/epoch]                                                                Entraînement:  58%|█████▊    | 29/50 [00:34<00:26,  1.28s/epoch]Entraînement:  60%|██████    | 30/50 [00:34<00:25,  1.28s/epoch]Entraînement:  62%|██████▏   | 31/50 [00:36<00:23,  1.25s/epoch]Entraînement:  64%|██████▍   | 32/50 [00:37<00:22,  1.25s/epoch]Entraînement:  66%|██████▌   | 33/50 [00:38<00:20,  1.23s/epoch]Entraînement:  68%|██████▊   | 34/50 [00:39<00:19,  1.21s/epoch]Entraînement:  70%|███████   | 35/50 [00:40<00:18,  1.22s/epoch]Entraînement:  72%|███████▏  | 36/50 [00:42<00:17,  1.25s/epoch]Entraînement:  74%|███████▍  | 37/50 [00:43<00:16,  1.28s/epoch]Entraînement:  76%|███████▌  | 38/50 [00:45<00:16,  1.39s/epoch]Entraînement:  78%|███████▊  | 39/50 [00:46<00:14,  1.36s/epoch]                                                                Entraînement:  78%|███████▊  | 39/50 [00:47<00:14,  1.36s/epoch]Entraînement:  80%|████████  | 40/50 [00:47<00:13,  1.36s/epoch]Entraînement:  82%|████████▏ | 41/50 [00:49<00:12,  1.42s/epoch]Entraînement:  84%|████████▍ | 42/50 [00:50<00:11,  1.41s/epoch]Entraînement:  86%|████████▌ | 43/50 [00:52<00:09,  1.38s/epoch]Entraînement:  88%|████████▊ | 44/50 [00:53<00:08,  1.35s/epoch]Entraînement:  90%|█████████ | 45/50 [00:54<00:06,  1.32s/epoch]Entraînement:  92%|█████████▏| 46/50 [00:55<00:05,  1.31s/epoch]Entraînement:  94%|█████████▍| 47/50 [00:57<00:03,  1.29s/epoch]Entraînement:  96%|█████████▌| 48/50 [00:58<00:02,  1.32s/epoch]Entraînement:  98%|█████████▊| 49/50 [01:00<00:01,  1.42s/epoch]                                                                Entraînement:  98%|█████████▊| 49/50 [01:01<00:01,  1.42s/epoch]Entraînement: 100%|██████████| 50/50 [01:01<00:00,  1.49s/epoch]Entraînement: 100%|██████████| 50/50 [01:01<00:00,  1.24s/epoch]
+[31m──[0m[31m────────────────────────[0m[31m [0m[1;31mTraceback [0m[1;2;31m(most recent call last)[0m[31m [0m[31m─────────────────────────[0m[31m──[0m
+[31m [0m [2;33m/Users/stephanekrebs/.pyenv/versions/3.11.5/lib/python3.11/site-packages/streamlit/r[0m [31m [0m
+[31m [0m [2;33muntime/scriptrunner/[0m[1;33mexec_code.py[0m:[94m121[0m in [92mexec_func_with_error_handling[0m                [31m [0m
+[31m [0m                                                                                      [31m [0m
+[31m [0m [2;33m/Users/stephanekrebs/.pyenv/versions/3.11.5/lib/python3.11/site-packages/streamlit/r[0m [31m [0m
+[31m [0m [2;33muntime/scriptrunner/[0m[1;33mscript_runner.py[0m:[94m645[0m in [92mcode_to_exec[0m                             [31m [0m
+[31m [0m                                                                                      [31m [0m
+[31m [0m [2;33m/Users/stephanekrebs/bureau/OPENCLAW/lstm-demo/dashboard/[0m[1;33mapp.py[0m:[94m274[0m in [92m<module>[0m      [31m [0m
+[31m [0m                                                                                      [31m [0m
+[31m [0m   [2m271 [0m[2m│   [0mckpt = load_model_checkpoint()                                             [31m [0m
+[31m [0m   [2m272 [0m[2m│   [0m[94mif[0m ckpt [95mand[0m [33m"[0m[33mtrain_losses[0m[33m"[0m [95min[0m ckpt:                                        [31m [0m
+[31m [0m   [2m273 [0m[2m│   │   [0mst.markdown([33mf[0m[33m"[0m[33m_Modèle chargé — entraîné sur **[0m[33m{[0mckpt.get([33m'[0m[33mticker[0m[33m'[0m,[90m [0m[33m'[0m[33m?[0m[33m'[0m) [31m [0m
+[31m [0m [31m❱ [0m274 [2m│   │   [0m[1;4m_plot_loss_curve(ckpt)[0m                                                 [31m [0m
+[31m [0m   [2m275 [0m[2m│   [0m[94melif[0m ckpt [95mis[0m [94mNone[0m:                                                         [31m [0m
+[31m [0m   [2m276 [0m[2m│   │   [0mst.info([33m"[0m[33mAucun modèle entraîné détecté. Cliquez sur **Lancer l[0m[33m'[0m[33mentraîn[0m [31m [0m
+[31m [0m   [2m277 [0m                                                                               [31m [0m
+[31m [0m                                                                                      [31m [0m
+[31m [0m [2;33m/Users/stephanekrebs/bureau/OPENCLAW/lstm-demo/dashboard/[0m[1;33mapp.py[0m:[94m247[0m in               [31m [0m
+[31m [0m [92m_plot_loss_curve[0m                                                                     [31m [0m
+[31m [0m                                                                                      [31m [0m
+[31m [0m   [2m244 [0m[2m│   │   │   │   [0mhovermode=[33m"[0m[33mx unified[0m[33m"[0m,                                         [31m [0m
+[31m [0m   [2m245 [0m[2m│   │   │   [0m)                                                                  [31m [0m
+[31m [0m   [2m246 [0m[2m│   │   [0m)                                                                      [31m [0m
+[31m [0m [31m❱ [0m247 [2m│   │   [0m[1;4mst.plotly_chart(fig, use_container_width=[0m[1;4;94mTrue[0m[1;4m)[0m                         [31m [0m
+[31m [0m   [2m248 [0m[2m│   [0m                                                                           [31m [0m
+[31m [0m   [2m249 [0m[2m│   [0m[94mif[0m st.button([33m"[0m[33m🚀 Lancer l[0m[33m'[0m[33mentraînement[0m[33m"[0m):                                  [31m [0m
+[31m [0m   [2m250 [0m[2m│   │   [0mlog_placeholder = st.empty()                                           [31m [0m
+[31m [0m                                                                                      [31m [0m
+[31m [0m [2;33m/Users/stephanekrebs/.pyenv/versions/3.11.5/lib/python3.11/site-packages/streamlit/r[0m [31m [0m
+[31m [0m [2;33muntime/[0m[1;33mmetrics_util.py[0m:[94m444[0m in [92mwrapped_func[0m                                           [31m [0m
+[31m [0m                                                                                      [31m [0m
+[31m [0m [2;33m/Users/stephanekrebs/.pyenv/versions/3.11.5/lib/python3.11/site-packages/streamlit/e[0m [31m [0m
+[31m [0m [2;33mlements/[0m[1;33mplotly_chart.py[0m:[94m509[0m in [92mplotly_chart[0m                                          [31m [0m
+[31m [0m                                                                                      [31m [0m
+[31m [0m [2;33m/Users/stephanekrebs/.pyenv/versions/3.11.5/lib/python3.11/site-packages/streamlit/e[0m [31m [0m
+[31m [0m [2;33mlements/lib/[0m[1;33mutils.py[0m:[94m239[0m in [92mcompute_and_register_element_id[0m                          [31m [0m
+[31m [0m                                                                                      [31m [0m
+[31m [0m [2;33m/Users/stephanekrebs/.pyenv/versions/3.11.5/lib/python3.11/site-packages/streamlit/e[0m [31m [0m
+[31m [0m [2;33mlements/lib/[0m[1;33mutils.py[0m:[94m145[0m in [92m_register_element_id[0m                                     [31m [0m
+[31m────────────────────────────────────────────────────────────────────────────────────────[0m
+[1;91mStreamlitDuplicateElementId: [0mThere are multiple `plotly_chart` elements with the same 
+auto-generated ID. When this element is created, it is assigned an internal ID based on 
+the element type and provided parameters. Multiple elements with the same type and 
+parameters will cause this error.
+
+To fix this error, please pass a unique `key` argument to the `plotly_chart` element.
+2026-04-08 21:15:22.390 Serialization of dataframe to Arrow table was unsuccessful. Applying automatic fixes for column types to make the dataframe Arrow-compatible.
+Traceback (most recent call last):
+  File "/Users/stephanekrebs/.pyenv/versions/3.11.5/lib/python3.11/site-packages/streamlit/dataframe_util.py", line 822, in convert_pandas_df_to_arrow_bytes
+    table = pa.Table.from_pandas(df)
+            ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "pyarrow/table.pxi", line 4793, in pyarrow.lib.Table.from_pandas
+  File "/Users/stephanekrebs/.pyenv/versions/3.11.5/lib/python3.11/site-packages/pyarrow/pandas_compat.py", line 639, in dataframe_to_arrays
+    arrays = [convert_column(c, f)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/stephanekrebs/.pyenv/versions/3.11.5/lib/python3.11/site-packages/pyarrow/pandas_compat.py", line 639, in <listcomp>
+    arrays = [convert_column(c, f)
+              ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/stephanekrebs/.pyenv/versions/3.11.5/lib/python3.11/site-packages/pyarrow/pandas_compat.py", line 626, in convert_column
+    raise e
+  File "/Users/stephanekrebs/.pyenv/versions/3.11.5/lib/python3.11/site-packages/pyarrow/pandas_compat.py", line 620, in convert_column
+    result = pa.array(col, type=type_, from_pandas=True, safe=safe)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "pyarrow/array.pxi", line 365, in pyarrow.lib.array
+  File "pyarrow/array.pxi", line 90, in pyarrow.lib._ndarray_to_array
+  File "pyarrow/error.pxi", line 92, in pyarrow.lib.check_status
+pyarrow.lib.ArrowTypeError: ("Expected bytes, got a 'int' object", 'Conversion failed for column Valeur with type object')
+2026-04-08 23:10:42.435 Serialization of dataframe to Arrow table was unsuccessful. Applying automatic fixes for column types to make the dataframe Arrow-compatible.
+Traceback (most recent call last):
+  File "/Users/stephanekrebs/.pyenv/versions/3.11.5/lib/python3.11/site-packages/streamlit/dataframe_util.py", line 822, in convert_pandas_df_to_arrow_bytes
+    table = pa.Table.from_pandas(df)
+            ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "pyarrow/table.pxi", line 4793, in pyarrow.lib.Table.from_pandas
+  File "/Users/stephanekrebs/.pyenv/versions/3.11.5/lib/python3.11/site-packages/pyarrow/pandas_compat.py", line 639, in dataframe_to_arrays
+    arrays = [convert_column(c, f)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/stephanekrebs/.pyenv/versions/3.11.5/lib/python3.11/site-packages/pyarrow/pandas_compat.py", line 639, in <listcomp>
+    arrays = [convert_column(c, f)
+              ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/stephanekrebs/.pyenv/versions/3.11.5/lib/python3.11/site-packages/pyarrow/pandas_compat.py", line 626, in convert_column
+    raise e
+  File "/Users/stephanekrebs/.pyenv/versions/3.11.5/lib/python3.11/site-packages/pyarrow/pandas_compat.py", line 620, in convert_column
+    result = pa.array(col, type=type_, from_pandas=True, safe=safe)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "pyarrow/array.pxi", line 365, in pyarrow.lib.array
+  File "pyarrow/array.pxi", line 90, in pyarrow.lib._ndarray_to_array
+  File "pyarrow/error.pxi", line 92, in pyarrow.lib.check_status
+pyarrow.lib.ArrowTypeError: ("Expected bytes, got a 'int' object", 'Conversion failed for column Valeur with type object')
+2026-04-08 23:15:03.624 Serialization of dataframe to Arrow table was unsuccessful. Applying automatic fixes for column types to make the dataframe Arrow-compatible.
+Traceback (most recent call last):
+  File "/Users/stephanekrebs/.pyenv/versions/3.11.5/lib/python3.11/site-packages/streamlit/dataframe_util.py", line 822, in convert_pandas_df_to_arrow_bytes
+    table = pa.Table.from_pandas(df)
+            ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "pyarrow/table.pxi", line 4793, in pyarrow.lib.Table.from_pandas
+  File "/Users/stephanekrebs/.pyenv/versions/3.11.5/lib/python3.11/site-packages/pyarrow/pandas_compat.py", line 639, in dataframe_to_arrays
+    arrays = [convert_column(c, f)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/stephanekrebs/.pyenv/versions/3.11.5/lib/python3.11/site-packages/pyarrow/pandas_compat.py", line 639, in <listcomp>
+    arrays = [convert_column(c, f)
+              ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/stephanekrebs/.pyenv/versions/3.11.5/lib/python3.11/site-packages/pyarrow/pandas_compat.py", line 626, in convert_column
+    raise e
+  File "/Users/stephanekrebs/.pyenv/versions/3.11.5/lib/python3.11/site-packages/pyarrow/pandas_compat.py", line 620, in convert_column
+    result = pa.array(col, type=type_, from_pandas=True, safe=safe)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "pyarrow/array.pxi", line 365, in pyarrow.lib.array
+  File "pyarrow/array.pxi", line 90, in pyarrow.lib._ndarray_to_array
+  File "pyarrow/error.pxi", line 92, in pyarrow.lib.check_status
+pyarrow.lib.ArrowTypeError: ("Expected bytes, got a 'int' object", 'Conversion failed for column Valeur with type object')
+2026-04-08 23:15:07.633 Serialization of dataframe to Arrow table was unsuccessful. Applying automatic fixes for column types to make the dataframe Arrow-compatible.
+Traceback (most recent call last):
+  File "/Users/stephanekrebs/.pyenv/versions/3.11.5/lib/python3.11/site-packages/streamlit/dataframe_util.py", line 822, in convert_pandas_df_to_arrow_bytes
+    table = pa.Table.from_pandas(df)
+            ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "pyarrow/table.pxi", line 4793, in pyarrow.lib.Table.from_pandas
+  File "/Users/stephanekrebs/.pyenv/versions/3.11.5/lib/python3.11/site-packages/pyarrow/pandas_compat.py", line 639, in dataframe_to_arrays
+    arrays = [convert_column(c, f)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/stephanekrebs/.pyenv/versions/3.11.5/lib/python3.11/site-packages/pyarrow/pandas_compat.py", line 639, in <listcomp>
+    arrays = [convert_column(c, f)
+              ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/stephanekrebs/.pyenv/versions/3.11.5/lib/python3.11/site-packages/pyarrow/pandas_compat.py", line 626, in convert_column
+    raise e
+  File "/Users/stephanekrebs/.pyenv/versions/3.11.5/lib/python3.11/site-packages/pyarrow/pandas_compat.py", line 620, in convert_column
+    result = pa.array(col, type=type_, from_pandas=True, safe=safe)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "pyarrow/array.pxi", line 365, in pyarrow.lib.array
+  File "pyarrow/array.pxi", line 90, in pyarrow.lib._ndarray_to_array
+  File "pyarrow/error.pxi", line 92, in pyarrow.lib.check_status
+pyarrow.lib.ArrowTypeError: ("Expected bytes, got a 'int' object", 'Conversion failed for column Valeur with type object')
+Entraînement:   0%|          | 0/50 [00:00<?, ?epoch/s]Entraînement:   2%|▏         | 1/50 [00:01<01:10,  1.43s/epoch]Entraînement:   4%|▍         | 2/50 [00:02<01:05,  1.36s/epoch]Entraînement:   6%|▌         | 3/50 [00:04<01:04,  1.37s/epoch]Entraînement:   8%|▊         | 4/50 [00:05<01:02,  1.36s/epoch]Entraînement:  10%|█         | 5/50 [00:06<01:00,  1.35s/epoch]Entraînement:  12%|█▏        | 6/50 [00:08<00:58,  1.33s/epoch]Entraînement:  14%|█▍        | 7/50 [00:09<00:56,  1.32s/epoch]Entraînement:  16%|█▌        | 8/50 [00:10<00:56,  1.35s/epoch]Entraînement:  18%|█▊        | 9/50 [00:12<00:56,  1.38s/epoch]                                                               Entraînement:  18%|█▊        | 9/50 [00:13<00:56,  1.38s/epoch]Entraînement:  20%|██        | 10/50 [00:13<00:57,  1.44s/epoch]Entraînement:  22%|██▏       | 11/50 [00:15<00:55,  1.43s/epoch]Entraînement:  24%|██▍       | 12/50 [00:17<00:59,  1.56s/epoch]Entraînement:  26%|██▌       | 13/50 [00:18<00:55,  1.51s/epoch]Entraînement:  28%|██▊       | 14/50 [00:19<00:52,  1.45s/epoch]Entraînement:  30%|███       | 15/50 [00:21<00:55,  1.58s/epoch]Entraînement:  32%|███▏      | 16/50 [00:23<00:53,  1.57s/epoch]Entraînement:  34%|███▍      | 17/50 [00:24<00:50,  1.52s/epoch]Entraînement:  36%|███▌      | 18/50 [00:26<00:47,  1.49s/epoch]Entraînement:  38%|███▊      | 19/50 [00:27<00:48,  1.55s/epoch]                                                                Entraînement:  38%|███▊      | 19/50 [00:29<00:48,  1.55s/epoch]Entraînement:  40%|████      | 20/50 [00:29<00:44,  1.47s/epoch]Entraînement:  42%|████▏     | 21/50 [00:30<00:42,  1.45s/epoch]Entraînement:  44%|████▍     | 22/50 [00:31<00:39,  1.42s/epoch]Entraînement:  46%|████▌     | 23/50 [00:33<00:38,  1.41s/epoch]Entraînement:  48%|████▊     | 24/50 [00:34<00:35,  1.38s/epoch]Entraînement:  50%|█████     | 25/50 [00:35<00:34,  1.39s/epoch]Entraînement:  52%|█████▏    | 26/50 [00:37<00:33,  1.39s/epoch]Entraînement:  54%|█████▍    | 27/50 [00:38<00:31,  1.39s/epoch]Entraînement:  56%|█████▌    | 28/50 [00:40<00:30,  1.38s/epoch]Entraînement:  58%|█████▊    | 29/50 [00:41<00:28,  1.38s/epoch]                                                                Entraînement:  58%|█████▊    | 29/50 [00:42<00:28,  1.38s/epoch]Entraînement:  60%|██████    | 30/50 [00:42<00:27,  1.38s/epoch]Entraînement:  62%|██████▏   | 31/50 [00:44<00:29,  1.54s/epoch]Entraînement:  64%|██████▍   | 32/50 [00:46<00:27,  1.53s/epoch]Entraînement:  66%|██████▌   | 33/50 [00:47<00:25,  1.49s/epoch]Entraînement:  68%|██████▊   | 34/50 [00:49<00:25,  1.62s/epoch]Entraînement:  70%|███████   | 35/50 [00:51<00:25,  1.73s/epoch]Entraînement:  72%|███████▏  | 36/50 [00:53<00:23,  1.67s/epoch]Entraînement:  74%|███████▍  | 37/50 [00:55<00:24,  1.85s/epoch]Entraînement:  76%|███████▌  | 38/50 [00:57<00:22,  1.83s/epoch]Entraînement:  78%|███████▊  | 39/50 [00:58<00:19,  1.78s/epoch]                                                                Entraînement:  78%|███████▊  | 39/50 [01:00<00:19,  1.78s/epoch]Entraînement:  80%|████████  | 40/50 [01:00<00:17,  1.73s/epoch]Entraînement:  82%|████████▏ | 41/50 [01:01<00:15,  1.67s/epoch]Entraînement:  84%|████████▍ | 42/50 [01:03<00:12,  1.61s/epoch]Entraînement:  86%|████████▌ | 43/50 [01:05<00:12,  1.75s/epoch]Entraînement:  88%|████████▊ | 44/50 [01:06<00:10,  1.68s/epoch]Entraînement:  90%|█████████ | 45/50 [01:08<00:08,  1.64s/epoch]Entraînement:  92%|█████████▏| 46/50 [01:09<00:06,  1.56s/epoch]Entraînement:  94%|█████████▍| 47/50 [01:11<00:04,  1.57s/epoch]Entraînement:  96%|█████████▌| 48/50 [01:13<00:03,  1.68s/epoch]Entraînement:  98%|█████████▊| 49/50 [01:15<00:01,  1.65s/epoch]                                                                Entraînement:  98%|█████████▊| 49/50 [01:16<00:01,  1.65s/epoch]Entraînement: 100%|██████████| 50/50 [01:16<00:00,  1.72s/epoch]Entraînement: 100%|██████████| 50/50 [01:16<00:00,  1.54s/epoch]
+[yfinance] 2115 jours téléchargés pour MC.PA
+[data] Sauvegardé → /Users/stephanekrebs/bureau/OPENCLAW/lstm-demo/data/raw/MC_PA.csv
+[yfinance] 2115 jours téléchargés pour MC.PA
+[data] Sauvegardé → /Users/stephanekrebs/bureau/OPENCLAW/lstm-demo/data/raw/MC_PA.csv
+[31m──[0m[31m────────────────────────[0m[31m [0m[1;31mTraceback [0m[1;2;31m(most recent call last)[0m[31m [0m[31m─────────────────────────[0m[31m──[0m
+[31m [0m [2;33m/Users/stephanekrebs/.pyenv/versions/3.11.5/lib/python3.11/site-packages/streamlit/r[0m [31m [0m
+[31m [0m [2;33muntime/scriptrunner/[0m[1;33mexec_code.py[0m:[94m121[0m in [92mexec_func_with_error_handling[0m                [31m [0m
+[31m [0m                                                                                      [31m [0m
+[31m [0m [2;33m/Users/stephanekrebs/.pyenv/versions/3.11.5/lib/python3.11/site-packages/streamlit/r[0m [31m [0m
+[31m [0m [2;33muntime/scriptrunner/[0m[1;33mscript_runner.py[0m:[94m645[0m in [92mcode_to_exec[0m                             [31m [0m
+[31m [0m                                                                                      [31m [0m
+[31m [0m [2;33m/Users/stephanekrebs/bureau/OPENCLAW/lstm-demo/dashboard/[0m[1;33mapp.py[0m:[94m274[0m in [92m<module>[0m      [31m [0m
+[31m [0m                                                                                      [31m [0m
+[31m [0m   [2m271 [0m[2m│   [0mckpt = load_model_checkpoint()                                             [31m [0m
+[31m [0m   [2m272 [0m[2m│   [0m[94mif[0m ckpt [95mand[0m [33m"[0m[33mtrain_losses[0m[33m"[0m [95min[0m ckpt:                                        [31m [0m
+[31m [0m   [2m273 [0m[2m│   │   [0mst.markdown([33mf[0m[33m"[0m[33m_Modèle chargé — entraîné sur **[0m[33m{[0mckpt.get([33m'[0m[33mticker[0m[33m'[0m,[90m [0m[33m'[0m[33m?[0m[33m'[0m) [31m [0m
+[31m [0m [31m❱ [0m274 [2m│   │   [0m[1;4m_plot_loss_curve(ckpt)[0m                                                 [31m [0m
+[31m [0m   [2m275 [0m[2m│   [0m[94melif[0m ckpt [95mis[0m [94mNone[0m:                                                         [31m [0m
+[31m [0m   [2m276 [0m[2m│   │   [0mst.info([33m"[0m[33mAucun modèle entraîné détecté. Cliquez sur **Lancer l[0m[33m'[0m[33mentraîn[0m [31m [0m
+[31m [0m   [2m277 [0m                                                                               [31m [0m
+[31m [0m                                                                                      [31m [0m
+[31m [0m [2;33m/Users/stephanekrebs/bureau/OPENCLAW/lstm-demo/dashboard/[0m[1;33mapp.py[0m:[94m247[0m in               [31m [0m
+[31m [0m [92m_plot_loss_curve[0m                                                                     [31m [0m
+[31m [0m                                                                                      [31m [0m
+[31m [0m   [2m244 [0m[2m│   │   │   │   [0mhovermode=[33m"[0m[33mx unified[0m[33m"[0m,                                         [31m [0m
+[31m [0m   [2m245 [0m[2m│   │   │   [0m)                                                                  [31m [0m
+[31m [0m   [2m246 [0m[2m│   │   [0m)                                                                      [31m [0m
+[31m [0m [31m❱ [0m247 [2m│   │   [0m[1;4mst.plotly_chart(fig, use_container_width=[0m[1;4;94mTrue[0m[1;4m)[0m                         [31m [0m
+[31m [0m   [2m248 [0m[2m│   [0m                                                                           [31m [0m
+[31m [0m   [2m249 [0m[2m│   [0m[94mif[0m st.button([33m"[0m[33m🚀 Lancer l[0m[33m'[0m[33mentraînement[0m[33m"[0m):                                  [31m [0m
+[31m [0m   [2m250 [0m[2m│   │   [0mlog_placeholder = st.empty()                                           [31m [0m
+[31m [0m                                                                                      [31m [0m
+[31m [0m [2;33m/Users/stephanekrebs/.pyenv/versions/3.11.5/lib/python3.11/site-packages/streamlit/r[0m [31m [0m
+[31m [0m [2;33muntime/[0m[1;33mmetrics_util.py[0m:[94m444[0m in [92mwrapped_func[0m                                           [31m [0m
+[31m [0m                                                                                      [31m [0m
+[31m [0m [2;33m/Users/stephanekrebs/.pyenv/versions/3.11.5/lib/python3.11/site-packages/streamlit/e[0m [31m [0m
+[31m [0m [2;33mlements/[0m[1;33mplotly_chart.py[0m:[94m509[0m in [92mplotly_chart[0m                                          [31m [0m
+[31m [0m                                                                                      [31m [0m
+[31m [0m [2;33m/Users/stephanekrebs/.pyenv/versions/3.11.5/lib/python3.11/site-packages/streamlit/e[0m [31m [0m
+[31m [0m [2;33mlements/lib/[0m[1;33mutils.py[0m:[94m239[0m in [92mcompute_and_register_element_id[0m                          [31m [0m
+[31m [0m                                                                                      [31m [0m
+[31m [0m [2;33m/Users/stephanekrebs/.pyenv/versions/3.11.5/lib/python3.11/site-packages/streamlit/e[0m [31m [0m
+[31m [0m [2;33mlements/lib/[0m[1;33mutils.py[0m:[94m145[0m in [92m_register_element_id[0m                                     [31m [0m
+[31m────────────────────────────────────────────────────────────────────────────────────────[0m
+[1;91mStreamlitDuplicateElementId: [0mThere are multiple `plotly_chart` elements with the same 
+auto-generated ID. When this element is created, it is assigned an internal ID based on 
+the element type and provided parameters. Multiple elements with the same type and 
+parameters will cause this error.
+
+To fix this error, please pass a unique `key` argument to the `plotly_chart` element.
+Entraînement:   0%|          | 0/50 [00:00<?, ?epoch/s]Entraînement:   2%|▏         | 1/50 [00:02<02:01,  2.47s/epoch]Entraînement:   4%|▍         | 2/50 [00:04<01:32,  1.92s/epoch]Entraînement:   6%|▌         | 3/50 [00:05<01:27,  1.87s/epoch]Entraînement:   8%|▊         | 4/50 [00:07<01:22,  1.79s/epoch]Entraînement:  10%|█         | 5/50 [00:09<01:18,  1.75s/epoch]Entraînement:  12%|█▏        | 6/50 [00:10<01:18,  1.78s/epoch]Entraînement:  14%|█▍        | 7/50 [00:12<01:14,  1.74s/epoch]Entraînement:  16%|█▌        | 8/50 [00:14<01:17,  1.84s/epoch]Entraînement:  18%|█▊        | 9/50 [00:16<01:16,  1.86s/epoch]                                                               Entraînement:  18%|█▊        | 9/50 [00:19<01:16,  1.86s/epoch]Entraînement:  20%|██        | 10/50 [00:19<01:21,  2.03s/epoch]Entraînement:  22%|██▏       | 11/50 [00:21<01:20,  2.06s/epoch]Entraînement:  24%|██▍       | 12/50 [00:24<01:38,  2.59s/epoch]Entraînement:  26%|██▌       | 13/50 [00:27<01:33,  2.54s/epoch]Entraînement:  28%|██▊       | 14/50 [00:29<01:28,  2.45s/epoch]Entraînement:  30%|███       | 15/50 [00:32<01:25,  2.44s/epoch]Entraînement:  32%|███▏      | 16/50 [00:34<01:22,  2.42s/epoch]Entraînement:  34%|███▍      | 17/50 [00:36<01:20,  2.43s/epoch]Entraînement:  36%|███▌      | 18/50 [00:38<01:12,  2.27s/epoch]Entraînement:  38%|███▊      | 19/50 [00:41<01:12,  2.33s/epoch]                                                                Entraînement:  38%|███▊      | 19/50 [00:43<01:12,  2.33s/epoch]Entraînement:  40%|████      | 20/50 [00:43<01:09,  2.32s/epoch]Entraînement:  42%|████▏     | 21/50 [00:46<01:10,  2.43s/epoch]Entraînement:  44%|████▍     | 22/50 [00:48<01:02,  2.24s/epoch]Entraînement:  46%|████▌     | 23/50 [00:49<00:56,  2.09s/epoch]Entraînement:  48%|████▊     | 24/50 [00:51<00:51,  1.97s/epoch]Entraînement:  50%|█████     | 25/50 [00:53<00:48,  1.93s/epoch]Entraînement:  52%|█████▏    | 26/50 [00:55<00:45,  1.91s/epoch]Entraînement:  54%|█████▍    | 27/50 [00:57<00:49,  2.14s/epoch]Entraînement:  56%|█████▌    | 28/50 [00:59<00:47,  2.14s/epoch]Entraînement:  58%|█████▊    | 29/50 [01:02<00:48,  2.31s/epoch]                                                                Entraînement:  58%|█████▊    | 29/50 [01:04<00:48,  2.31s/epoch]Entraînement:  60%|██████    | 30/50 [01:04<00:45,  2.30s/epoch]Entraînement:  62%|██████▏   | 31/50 [01:07<00:44,  2.34s/epoch]Entraînement:  64%|██████▍   | 32/50 [01:09<00:43,  2.40s/epoch]Entraînement:  66%|██████▌   | 33/50 [01:11<00:38,  2.27s/epoch]Entraînement:  68%|██████▊   | 34/50 [01:13<00:34,  2.18s/epoch]Entraînement:  70%|███████   | 35/50 [01:16<00:33,  2.25s/epoch]Entraînement:  72%|███████▏  | 36/50 [01:18<00:30,  2.15s/epoch]Entraînement:  74%|███████▍  | 37/50 [01:20<00:26,  2.05s/epoch]Entraînement:  76%|███████▌  | 38/50 [01:22<00:25,  2.09s/epoch]Entraînement:  78%|███████▊  | 39/50 [01:24<00:22,  2.07s/epoch]                                                                Entraînement:  78%|███████▊  | 39/50 [01:26<00:22,  2.07s/epoch]Entraînement:  80%|████████  | 40/50 [01:26<00:20,  2.03s/epoch]Entraînement:  82%|████████▏ | 41/50 [01:28<00:18,  2.09s/epoch]Entraînement:  84%|████████▍ | 42/50 [01:30<00:16,  2.01s/epoch]Entraînement:  86%|████████▌ | 43/50 [01:32<00:13,  1.97s/epoch]Entraînement:  88%|████████▊ | 44/50 [01:33<00:11,  1.94s/epoch]Entraînement:  90%|█████████ | 45/50 [01:36<00:10,  2.02s/epoch]Entraînement:  92%|█████████▏| 46/50 [01:38<00:08,  2.07s/epoch]Entraînement:  94%|█████████▍| 47/50 [01:40<00:06,  2.01s/epoch]Entraînement:  96%|█████████▌| 48/50 [01:42<00:04,  2.04s/epoch]Entraînement:  98%|█████████▊| 49/50 [01:44<00:02,  2.23s/epoch]                                                                Entraînement:  98%|█████████▊| 49/50 [01:47<00:02,  2.23s/epoch]Entraînement: 100%|██████████| 50/50 [01:47<00:00,  2.22s/epoch]Entraînement: 100%|██████████| 50/50 [01:47<00:00,  2.14s/epoch]
+[31m──[0m[31m────────────────────────[0m[31m [0m[1;31mTraceback [0m[1;2;31m(most recent call last)[0m[31m [0m[31m─────────────────────────[0m[31m──[0m
+[31m [0m [2;33m/Users/stephanekrebs/.pyenv/versions/3.11.5/lib/python3.11/site-packages/streamlit/r[0m [31m [0m
+[31m [0m [2;33muntime/scriptrunner/[0m[1;33mexec_code.py[0m:[94m121[0m in [92mexec_func_with_error_handling[0m                [31m [0m
+[31m [0m                                                                                      [31m [0m
+[31m [0m [2;33m/Users/stephanekrebs/.pyenv/versions/3.11.5/lib/python3.11/site-packages/streamlit/r[0m [31m [0m
+[31m [0m [2;33muntime/scriptrunner/[0m[1;33mscript_runner.py[0m:[94m645[0m in [92mcode_to_exec[0m                             [31m [0m
+[31m [0m                                                                                      [31m [0m
+[31m [0m [2;33m/Users/stephanekrebs/bureau/OPENCLAW/lstm-demo/dashboard/[0m[1;33mapp.py[0m:[94m274[0m in [92m<module>[0m      [31m [0m
+[31m [0m                                                                                      [31m [0m
+[31m [0m   [2m271 [0m[2m│   [0mckpt = load_model_checkpoint()                                             [31m [0m
+[31m [0m   [2m272 [0m[2m│   [0m[94mif[0m ckpt [95mand[0m [33m"[0m[33mtrain_losses[0m[33m"[0m [95min[0m ckpt:                                        [31m [0m
+[31m [0m   [2m273 [0m[2m│   │   [0mst.markdown([33mf[0m[33m"[0m[33m_Modèle chargé — entraîné sur **[0m[33m{[0mckpt.get([33m'[0m[33mticker[0m[33m'[0m,[90m [0m[33m'[0m[33m?[0m[33m'[0m) [31m [0m
+[31m [0m [31m❱ [0m274 [2m│   │   [0m[1;4m_plot_loss_curve(ckpt)[0m                                                 [31m [0m
+[31m [0m   [2m275 [0m[2m│   [0m[94melif[0m ckpt [95mis[0m [94mNone[0m:                                                         [31m [0m
+[31m [0m   [2m276 [0m[2m│   │   [0mst.info([33m"[0m[33mAucun modèle entraîné détecté. Cliquez sur **Lancer l[0m[33m'[0m[33mentraîn[0m [31m [0m
+[31m [0m   [2m277 [0m                                                                               [31m [0m
+[31m [0m                                                                                      [31m [0m
+[31m [0m [2;33m/Users/stephanekrebs/bureau/OPENCLAW/lstm-demo/dashboard/[0m[1;33mapp.py[0m:[94m247[0m in               [31m [0m
+[31m [0m [92m_plot_loss_curve[0m                                                                     [31m [0m
+[31m [0m                                                                                      [31m [0m
+[31m [0m   [2m244 [0m[2m│   │   │   │   [0mhovermode=[33m"[0m[33mx unified[0m[33m"[0m,                                         [31m [0m
+[31m [0m   [2m245 [0m[2m│   │   │   [0m)                                                                  [31m [0m
+[31m [0m   [2m246 [0m[2m│   │   [0m)                                                                      [31m [0m
+[31m [0m [31m❱ [0m247 [2m│   │   [0m[1;4mst.plotly_chart(fig, use_container_width=[0m[1;4;94mTrue[0m[1;4m, key=[0m[1;4;33m"[0m[1;4;33mloss_curve_chart[0m[1;4;33m"[0m[1;4m)[0m [31m [0m
+[31m [0m   [2m248 [0m[2m│   [0m                                                                           [31m [0m
+[31m [0m   [2m249 [0m[2m│   [0m[94mif[0m st.button([33m"[0m[33m🚀 Lancer l[0m[33m'[0m[33mentraînement[0m[33m"[0m):                                  [31m [0m
+[31m [0m   [2m250 [0m[2m│   │   [0mlog_placeholder = st.empty()                                           [31m [0m
+[31m [0m                                                                                      [31m [0m
+[31m [0m [2;33m/Users/stephanekrebs/.pyenv/versions/3.11.5/lib/python3.11/site-packages/streamlit/r[0m [31m [0m
+[31m [0m [2;33muntime/[0m[1;33mmetrics_util.py[0m:[94m444[0m in [92mwrapped_func[0m                                           [31m [0m
+[31m [0m                                                                                      [31m [0m
+[31m [0m [2;33m/Users/stephanekrebs/.pyenv/versions/3.11.5/lib/python3.11/site-packages/streamlit/e[0m [31m [0m
+[31m [0m [2;33mlements/[0m[1;33mplotly_chart.py[0m:[94m509[0m in [92mplotly_chart[0m                                          [31m [0m
+[31m [0m                                                                                      [31m [0m
+[31m [0m [2;33m/Users/stephanekrebs/.pyenv/versions/3.11.5/lib/python3.11/site-packages/streamlit/e[0m [31m [0m
+[31m [0m [2;33mlements/lib/[0m[1;33mutils.py[0m:[94m239[0m in [92mcompute_and_register_element_id[0m                          [31m [0m
+[31m [0m                                                                                      [31m [0m
+[31m [0m [2;33m/Users/stephanekrebs/.pyenv/versions/3.11.5/lib/python3.11/site-packages/streamlit/e[0m [31m [0m
+[31m [0m [2;33mlements/lib/[0m[1;33mutils.py[0m:[94m140[0m in [92m_register_element_id[0m                                     [31m [0m
+[31m────────────────────────────────────────────────────────────────────────────────────────[0m
+[1;91mStreamlitDuplicateElementKey: [0mThere are multiple elements with the same 
+`[33mkey[0m=[32m'loss_curve_chart'[0m`. To fix this, please make sure that the `key` argument is 
+unique for each element you create.
