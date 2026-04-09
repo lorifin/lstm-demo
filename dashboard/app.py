@@ -18,7 +18,37 @@ from sklearn.preprocessing import MinMaxScaler
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, ROOT)
 
-# ─── Config page ────────────────────────────────────────────────────────────
+# ─── Helper Functions ───────────────────────────────────────────────────────
+
+def download_stock(ticker: str = "MC.PA", start: str = "2018-01-01", end: str = None) -> pd.DataFrame:
+    """Download stock data from yfinance or generate synthetic data."""
+    from datetime import datetime
+
+    if end is None:
+        end = datetime.today().strftime("%Y-%m-%d")
+
+    try:
+        import yfinance as yf
+        df = yf.download(ticker, start=start, end=end, progress=False)
+        if df.empty:
+            raise ValueError(f"Aucune donnée pour {ticker}")
+        df = df[["Close"]].copy()
+        df.columns = ["close"]
+        df.index.name = "date"
+        return df
+    except:
+        # Generate synthetic data fallback
+        dates = pd.date_range(start=start, end=end, freq="B")
+        n = len(dates)
+        np.random.seed(42)
+        returns = np.random.normal(0.0003, 0.012, n)
+        seasonal = 0.05 * np.sin(2 * np.pi * np.arange(n) / 252)
+        prices = 100 * np.exp(np.cumsum(returns) + seasonal)
+        df = pd.DataFrame({"close": prices}, index=dates)
+        df.index.name = "date"
+        return df
+
+# ─── Config page ────────────────────────────────────────────────────────
 
 st.set_page_config(
     page_title="POC LSTM — Prédiction Boursière",
@@ -128,7 +158,6 @@ with st.sidebar:
 
 @st.cache_data(ttl=3600, show_spinner=False)
 def load_data(ticker: str, start: str, end: str) -> pd.DataFrame:
-    from data.download_data import download_stock
     df = download_stock(ticker, start=start, end=end)
     return df
 
