@@ -87,6 +87,20 @@ st.markdown("""
     .element-container { color: #fafafa !important; }
     .element-container * { color: #fafafa !important; }
 
+    /* Fix sidebar inputs text visibility */
+    input[type="text"], input[type="date"] { color: #0e1117 !important; }
+    [data-testid="stDateInput"] input { color: #0e1117 !important; }
+    [data-baseweb="input"] input { color: #0e1117 !important; }
+    [data-baseweb="select"] [data-baseweb="value"] { color: #0e1117 !important; }
+    [data-testid="stSelectbox"] div[class*="ValueContainer"] { color: #0e1117 !important; }
+    [data-testid="stSelectbox"] span { color: #0e1117 !important; }
+    [data-baseweb="select"] [class*="singleValue"] { color: #0e1117 !important; }
+    [data-baseweb="select"] [class*="placeholder"] { color: #555 !important; }
+
+    /* Override element-container * rule for select inputs */
+    section[data-testid="stSidebar"] [data-baseweb="select"] * { color: #0e1117 !important; }
+    section[data-testid="stSidebar"] input { color: #0e1117 !important; }
+
     /* Fix date input and selectbox text visibility */
     input[type="text"], input[type="date"] { color: #0e1117 !important; }
     [data-testid="stDateInput"] input { color: #0e1117 !important; }
