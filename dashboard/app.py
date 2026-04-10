@@ -87,6 +87,15 @@ st.markdown("""
     .element-container { color: #fafafa !important; }
     .element-container * { color: #fafafa !important; }
 
+    /* Fix date input and selectbox text visibility */
+    input[type="text"], input[type="date"] { color: #0e1117 !important; }
+    [data-testid="stDateInput"] input { color: #0e1117 !important; }
+    [data-baseweb="input"] input { color: #0e1117 !important; }
+    [data-baseweb="select"] [data-baseweb="value"] { color: #0e1117 !important; }
+    [data-baseweb="select"] div { color: #0e1117 !important; }
+    [data-testid="stSelectbox"] div[class*="ValueContainer"] { color: #0e1117 !important; }
+    [data-testid="stSelectbox"] span { color: #0e1117 !important; }
+
     /* Tabs */
     .stTabs [data-baseweb="tab-list"] { gap: 8px; }
     .stTabs [data-baseweb="tab"] {
@@ -140,7 +149,18 @@ st.markdown("""
 
 # ─── Sidebar ────────────────────────────────────────────────────────────────
 
-TICKERS = {"LVMH (MC.PA)": "MC.PA", "TotalEnergies (TTE.PA)": "TTE.PA"}
+TICKERS = {
+    "LVMH (MC.PA)": "MC.PA",
+    "TotalEnergies (TTE.PA)": "TTE.PA",
+    "Air Liquide (AI.PA)": "AI.PA",
+    "BNP Paribas (BNP.PA)": "BNP.PA",
+    "Airbus (AIR.PA)": "AIR.PA",
+    "Apple (AAPL)": "AAPL",
+    "Microsoft (MSFT)": "MSFT",
+    "Tesla (TSLA)": "TSLA",
+    "S&P 500 (^GSPC)": "^GSPC",
+    "CAC 40 (^FCHI)": "^FCHI",
+}
 
 with st.sidebar:
     st.image("https://img.icons8.com/fluency/96/combo-chart.png", width=60)
@@ -214,7 +234,7 @@ with st.spinner("Chargement des données…"):
 
 # ─── Onglets ────────────────────────────────────────────────────────────────
 
-tab1, tab2, tab3, tab4 = st.tabs(["📊 Données", "🏋️ Entraînement", "🔮 Prédictions", "📐 Métriques"])
+tab1, tab2, tab3, tab4, tab5 = st.tabs(["📊 Données", "🏋️ Entraînement", "🔮 Prédictions", "🚀 Prédictions Futures", "📐 Métriques"])
 
 # ═══════════════════════════════════════════════════════════════════════════
 # TAB 1 — Données
@@ -382,10 +402,114 @@ with tab3:
             )
 
 # ═══════════════════════════════════════════════════════════════════════════
-# TAB 4 — Métriques
+# TAB 4 — Prédictions Futures
 # ═══════════════════════════════════════════════════════════════════════════
 
 with tab4:
+    st.markdown("## Prédictions Futures")
+
+    ckpt = load_model_checkpoint()
+
+    if ckpt is None:
+        st.info("Aucun modèle entraîné. Lancez d'abord l'entraînement.")
+    else:
+        import torch
+
+        horizon = st.slider("Nombre de jours à prédire", min_value=5, max_value=90, value=30, step=5)
+
+        if st.button("🔮 Générer les prédictions futures"):
+            with st.spinner("Génération en cours..."):
+                try:
+                    from model.lstm_model import LSTMForecaster as _LSTM
+                except Exception:
+                    from train import LSTMForecaster as _LSTM
+
+                hp = ckpt["hyperparams"]
+                model = _LSTM(
+                    hidden_size=hp["hidden_size"],
+                    num_layers=hp["num_layers"],
+                    dropout=hp["dropout"],
+                )
+                model.load_state_dict(ckpt["model_state"])
+                model.eval()
+
+                scaler = ckpt["scaler"]
+                seq_len = hp["seq_len"]
+                saved_ticker = ckpt.get("ticker", ticker)
+
+                # Charger dernières données
+                hist_df = load_data(saved_ticker, str(start_date), str(end_date))
+                prices = hist_df["close"].values.reshape(-1, 1).astype("float32")
+                prices_scaled = scaler.transform(prices)
+
+                # Prédictions itératives
+                window = prices_scaled[-seq_len:].copy()
+                future_scaled = []
+                with torch.no_grad():
+                    for _ in range(horizon):
+                        x = torch.FloatTensor(window).unsqueeze(0)
+                        pred = model(x).item()
+                        future_scaled.append(pred)
+                        window = np.vstack([window[1:], [[pred]]])
+
+                future_prices = scaler.inverse_transform(
+                    np.array(future_scaled).reshape(-1, 1)
+                ).flatten()
+
+                last_date = hist_df.index[-1]
+                future_dates = pd.bdate_range(start=last_date + pd.Timedelta(days=1), periods=horizon)
+
+                future_df = pd.DataFrame({"date": future_dates, "predicted": future_prices})
+
+                # Graphique
+                fig = go.Figure()
+                fig.add_trace(go.Scatter(
+                    x=hist_df.index[-90:], y=hist_df["close"].values[-90:],
+                    mode="lines", name="Historique (90j)",
+                    line=dict(color="#58a6ff", width=2),
+                ))
+                fig.add_trace(go.Scatter(
+                    x=future_df["date"], y=future_df["predicted"],
+                    mode="lines", name=f"Prédiction ({horizon}j)",
+                    line=dict(color="#f78166", width=2, dash="dot"),
+                    fill="tozeroy",
+                    fillcolor="rgba(247,129,102,0.07)",
+                ))
+                fig.add_vrect(
+                    x0=str(last_date), x1=str(future_dates[0]),
+                    fillcolor="#8b949e", opacity=0.1,
+                    annotation_text="Aujourd'hui", annotation_position="top left",
+                )
+                fig.update_layout(
+                    **plotly_dark_layout(
+                        title=f"Prédictions futures — {saved_ticker} ({horizon} jours)",
+                        xaxis_title="Date",
+                        yaxis_title="Prix (€)",
+                        height=460,
+                        hovermode="x unified",
+                    )
+                )
+                st.plotly_chart(fig, use_container_width=True)
+
+                with st.expander("Tableau des prédictions futures"):
+                    st.dataframe(
+                        future_df.style.format({"predicted": "{:.2f}"}),
+                        use_container_width=True,
+                    )
+
+                # Export CSV
+                csv = future_df.to_csv(index=False).encode("utf-8")
+                st.download_button("⬇️ Télécharger en CSV", csv, "predictions_futures.csv", "text/csv")
+
+        else:
+            st.info(f"Modèle chargé : **{ckpt.get('ticker', '?')}** — Sélectionnez un horizon et cliquez sur **Générer**.")
+
+
+# ═══════════════════════════════════════════════════════════════════════════
+# TAB 5 — Métriques
+# ═══════════════════════════════════════════════════════════════════════════
+
+with tab5:
     st.markdown("## Métriques de performance")
 
     ckpt = load_model_checkpoint()

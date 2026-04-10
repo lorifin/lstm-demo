@@ -89,6 +89,32 @@ def record_error(error_type: str):
 
 
 if __name__ == "__main__":
+    import os, sys
+    ROOT = os.path.dirname(os.path.abspath(__file__))
+    sys.path.insert(0, ROOT)
+
+    # Initialiser les compteurs à zéro pour qu'ils apparaissent dans Prometheus
+    for t in ["MC.PA", "TTE.PA", "AI.PA", "BNP.PA", "AIR.PA", "AAPL", "MSFT", "TSLA", "^GSPC", "^FCHI"]:
+        predictions_total.labels(ticker=t)
+        training_total.labels(ticker=t)
+    errors_total.labels(error_type="general")
+
+    # Charger les métriques depuis le checkpoint
+    try:
+        import torch
+        ckpt_path = os.path.join(ROOT, "model", "saved_model.pth")
+        if os.path.exists(ckpt_path):
+            ckpt = torch.load(ckpt_path, map_location="cpu", weights_only=False)
+            m = ckpt.get("metrics", {})
+            ticker = ckpt.get("ticker", "unknown")
+            if m:
+                model_mae.labels(ticker=ticker).set(m.get("MAE", 0))
+                model_rmse.labels(ticker=ticker).set(m.get("RMSE", 0))
+                model_mape.labels(ticker=ticker).set(m.get("MAPE", 0))
+                print(f"✓ Métriques chargées depuis le checkpoint ({ticker}): MAE={m.get('MAE', 0):.2f}, RMSE={m.get('RMSE', 0):.2f}, MAPE={m.get('MAPE', 0):.2f}%")
+    except Exception as e:
+        print(f"⚠ Impossible de charger le checkpoint : {e}")
+
     start_metrics_server()
     # Keep server running
     try:
