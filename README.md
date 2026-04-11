@@ -1,3 +1,13 @@
+---
+title: LSTM Demo
+emoji: 📈
+colorFrom: blue
+colorTo: green
+sdk: docker
+app_port: 8501
+pinned: false
+---
+
 # POC LSTM — Prédiction de Séries Temporelles
 
 > **Mission courte, résultat production-ready.**
